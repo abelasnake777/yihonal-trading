@@ -1,3 +1,5 @@
+import { assetPath } from "@/app/lib/assets";
+
 export const navigation = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
@@ -10,7 +12,7 @@ export const navigation = [
 export const products = [
   {
     name: "Washed",
-    image: "/images/sample.jpg",
+    image: assetPath("/images/sample.jpg"),
     notes: "Floral, Citrus, Bright",
     description: "Clean washed lots prepared for roasters who need clarity and consistent cup structure.",
     details:
@@ -18,7 +20,7 @@ export const products = [
   },
   {
     name: "Natural",
-    image: "/images/farm.jpg",
+    image: assetPath("/images/farm.jpg"),
     notes: "Smooth, Sweet, Balanced",
     description: "Sun-dried naturals with a round body, berry sweetness, and a classic Yirgacheffe profile.",
     details:
@@ -26,7 +28,7 @@ export const products = [
   },
   {
     name: "Honey",
-    image: "/images/sample.jpg",
+    image: assetPath("/images/sample.jpg"),
     notes: "Fruity, Rich Body",
     description: "Carefully processed honey coffee with fruit-forward sweetness and a polished finish.",
     details:
@@ -39,19 +41,19 @@ export const awards = [
     year: "2024",
     title: "Cup of Excellence",
     detail: "Score 90.25 · Finalist\nYirgacheffe Natural Process",
-    image: "/images/sample.jpg",
+    image: assetPath("/images/sample.jpg"),
   },
   {
     year: "2023",
     title: "Ethiopia Taste of Harvest",
     detail: "1st Place · Natural Category\nGedeb Woreda",
-    image: "/images/back_image.jpg",
+    image: assetPath("/images/back_image.jpg"),
   },
   {
     year: "2024",
     title: "Good Food Awards",
     detail: "Winner · USA",
-    image: "/images/farm.jpg",
+    image: assetPath("/images/farm.jpg"),
   },
 ];
 
@@ -64,23 +66,23 @@ export const contactLinks = [
 ];
 
 export const heroSlides = [
-  "/images/back_image.jpg",
-  "/images/back_image2.jpg",
-  "/images/sample.jpg",
-  "/images/farm.jpg",
+  assetPath("/images/back_image.jpg"),
+  assetPath("/images/back_image2.jpg"),
+  assetPath("/images/sample.jpg"),
+  assetPath("/images/farm.jpg"),
 ];
 
 export const galleryImages = [
-  "/images/gallery/photo1.jpg",
-  "/images/gallery/photo2.jpg",
-  "/images/gallery/photo3.jpg",
-  "/images/gallery/photo4.jpg",
-  "/images/gallery/photo5.jpg",
-  "/images/gallery/photo6.jpg",
-  "/images/gallery/photo7.jpg",
-  "/images/gallery/photo8.jpg",
-  "/images/back_image.jpg",
-  "/images/back_image2.jpg",
-  "/images/farm.jpg",
-  "/images/sample.jpg",
+  assetPath("/images/gallery/photo1.jpg"),
+  assetPath("/images/gallery/photo2.jpg"),
+  assetPath("/images/gallery/photo3.jpg"),
+  assetPath("/images/gallery/photo4.jpg"),
+  assetPath("/images/gallery/photo5.jpg"),
+  assetPath("/images/gallery/photo6.jpg"),
+  assetPath("/images/gallery/photo7.jpg"),
+  assetPath("/images/gallery/photo8.jpg"),
+  assetPath("/images/back_image.jpg"),
+  assetPath("/images/back_image2.jpg"),
+  assetPath("/images/farm.jpg"),
+  assetPath("/images/sample.jpg"),
 ];

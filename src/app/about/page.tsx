@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Header from "@/app/components/Header";
+import { assetPath } from "@/app/lib/assets";
 
 const processImages = [
-  { src: "/images/back_image2.jpg", alt: "Picking cherries" },
-  { src: "/images/back_image.jpg", alt: "Sorting cherries" },
-  { src: "/images/sample.jpg", alt: "Drying on raised beds" },
-  { src: "/images/sample2.jpg", alt: "More drying beds" },
+  { src: assetPath("/images/back_image2.jpg"), alt: "Picking cherries" },
+  { src: assetPath("/images/back_image.jpg"), alt: "Sorting cherries" },
+  { src: assetPath("/images/sample.jpg"), alt: "Drying on raised beds" },
+  { src: assetPath("/images/sample2.jpg"), alt: "More drying beds" },
 ];
 
 export default function AboutPage() {
@@ -13,7 +14,7 @@ export default function AboutPage() {
     <main className="about-page">
       <Header />
       <section className="hero">
-        <Image src="/images/back_image.jpg" alt="Yihonal Coffee" fill className="hero-bg" priority />
+        <Image src={assetPath("/images/back_image.jpg")} alt="Yihonal Coffee" fill className="hero-bg" priority />
         <div className="hero-overlay" />
         <div className="hero-content">
           <h1>Yihonal Coffee</h1>
@@ -38,7 +39,7 @@ export default function AboutPage() {
       </section>
 
       <section className="beans-footer">
-        <Image src="/images/sample.jpg" alt="Roasted beans" fill className="beans-bg" />
+        <Image src={assetPath("/images/sample.jpg")} alt="Roasted beans" fill className="beans-bg" />
       </section>
     </main>
   );

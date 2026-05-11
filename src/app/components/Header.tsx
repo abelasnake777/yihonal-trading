@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { navigation } from "@/app/data/site";
+import { assetPath } from "@/app/lib/assets";
 
 export default function Header() {
   const [slideUp, setSlideUp] = useState(false);
@@ -28,7 +29,7 @@ export default function Header() {
       <div className="brand-wrap">
         <Link href="/">
           <Image
-            src="/images/yihonal logo.PNG"
+            src={assetPath("/images/yihonal logo.PNG")}
             alt="Yihonal Coffee"
             width={90}
             height={90}
