@@ -373,15 +373,21 @@ h2 {
   gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
+  align-items: stretch;
 }
 
 .award-card {
+  height: 100%;
+  min-height: 285px;
   background: white;
   padding: 40px 25px;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 12px 35px rgba(0,0,0,0.12);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .award-card:hover {
@@ -410,6 +416,7 @@ h2 {
   color: #555;
   line-height: 1.6;
   white-space: pre-line;
+  margin-top: auto;
 }
 
 .contact {
@@ -797,35 +804,302 @@ h2 {
 }
 
 @media (max-width: 968px) {
+  header {
+    padding: 14px 22px;
+  }
+
+  .brand-wrap {
+    gap: 12px;
+  }
+
+  .brand-wrap a {
+    width: 68px;
+    height: 68px;
+  }
+
+  .logo {
+    height: 58px;
+    width: 58px;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  nav a {
+    margin-left: 18px;
+    font-size: 1rem;
+  }
+
+  .home-content {
+    max-width: min(680px, calc(100vw - 40px));
+  }
+
+  .products-grid,
+  .awards-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+
   .contact-container {
     grid-template-columns: 1fr;
     gap: 60px;
+    justify-items: center;
+    text-align: center;
   }
+
+  .map-wrapper,
+  .contact-info {
+    width: 100%;
+    max-width: 720px;
+  }
+
   .contact-info h2 { font-size: 2.5rem; text-align: center; }
   .contact-info p { text-align: center; }
   .contact-list { text-align: center; }
   .contact-map { width: 100%; }
+
+  .whatsapp-btn {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 860px) {
-  .gallery-grid { column-count: 4; }
+  .gallery-grid {
+    column-count: 4;
+  }
 }
 
 @media (max-width: 768px) {
   header {
     flex-direction: column;
-    padding: 15px;
+    padding: 12px 14px;
+    gap: 8px;
   }
-  nav { margin-top: 10px; text-align: center; }
-  nav a { margin: 0 10px; }
-  .home h2 { font-size: 2.2rem; }
+
+  .brand-wrap {
+    justify-content: center;
+  }
+
+  .brand-wrap a {
+    width: 58px;
+    height: 58px;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+    border-width: 2px;
+  }
+
+  h1 {
+    font-size: 1.55rem;
+  }
+
+  nav {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px 14px;
+    margin-top: 2px;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 0.95rem;
+  }
+
+  .home {
+    min-height: 100svh;
+    height: auto;
+    padding: 150px 16px 58px;
+  }
+
+  .home-content {
+    width: 100%;
+    padding: 30px 22px;
+  }
+
+  .home h2 { font-size: 2.2rem; line-height: 1.12; }
+
+  .home p {
+    font-size: 1.1rem;
+    line-height: 1.55;
+  }
+
+  .btn,
+  .learn-more,
+  .whatsapp-btn {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .container {
+    margin: 58px auto;
+    padding: 0 16px;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    margin-bottom: 38px;
+  }
+
+  .products-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .product-card,
+  .award-card {
+    max-width: 430px;
+  }
+
   .awards-grid { grid-template-columns: 1fr; }
-  .hero h1 { font-size: 3.5rem; }
-  .tagline { font-size: 1.4rem; }
-  .process-strip-image { height: 180px; width: 240px; }
-  .about-text h2 { font-size: 2.4rem; }
+
+  .awards-grid {
+    justify-items: center;
+  }
+
+  .awards {
+    padding: 72px 16px;
+  }
+
+  .contact {
+    padding: 82px 16px 76px;
+  }
+
+  .contact-container {
+    gap: 44px;
+  }
+
+  .contact-map {
+    height: 320px;
+  }
+
+  .contact-info h2 {
+    font-size: 2.2rem;
+  }
+
+  .contact-info p,
+  .contact-list {
+    font-size: 1.08rem;
+  }
+
+  .whatsapp-btn {
+    display: block;
+    width: fit-content;
+    margin: 28px auto 0;
+    padding: 14px 24px;
+    font-size: 1.05rem;
+  }
+
+  .hero {
+    min-height: 100svh;
+    height: auto;
+    padding: 150px 16px 70px;
+  }
+
+  .hero-content {
+    width: 100%;
+    padding: 28px 20px;
+  }
+
+  .hero h1 { font-size: 3.3rem; line-height: 1.05; }
+  .tagline { font-size: 1.3rem; }
+
+  .process-strip {
+    padding: 34px 14px;
+  }
+
+  .process-strip-image {
+    width: min(100%, 310px);
+    height: 190px;
+  }
+
+  .about-text {
+    padding: 68px 16px;
+  }
+
+  .about-text .container {
+    padding: 34px 22px;
+  }
+
+  .about-text h2 { font-size: 2.25rem; }
+
+  .about-text p {
+    font-size: 1.08rem;
+  }
+
+  .beans-footer {
+    height: 52vh;
+  }
+
 }
 
 @media (max-width: 620px) {
-  .gallery-grid { column-count: 3; }
+  .gallery-grid {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 430px) {
+  h1 {
+    font-size: 1.35rem;
+  }
+
+  nav {
+    gap: 2px 11px;
+  }
+
+  nav a {
+    font-size: 0.88rem;
+  }
+
+  .home {
+    padding-top: 142px;
+  }
+
+  .home-content {
+    padding: 26px 18px;
+  }
+
+  .home h2 {
+    font-size: 1.9rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 13px 24px;
+  }
+
+  .product-image-wrap {
+    height: 220px;
+  }
+
+  .contact-map {
+    height: 280px;
+  }
+
+  .contact-info h2 {
+    font-size: 1.95rem;
+  }
+
+  .contact-list {
+    line-height: 2.15;
+  }
+
+  .hero h1 {
+    font-size: 2.65rem;
+  }
+
+  .tagline {
+    font-size: 1.12rem;
+  }
 }
