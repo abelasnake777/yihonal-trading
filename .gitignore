@@ -17,6 +17,7 @@
 
 # production
 /build
+/release/
 
 # misc
 .DS_Store
@@ -38,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Generated responsive images
+/public/optimized/
+
+# Editor recovery files
+nano.*.save

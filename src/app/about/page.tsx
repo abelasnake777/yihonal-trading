@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Image from "@/app/components/OptimizedImage";
 import Link from "next/link";
 import AnimatedSection from "@/app/components/AnimatedSection";
 import Header from "@/app/components/Header";
-import { assetPath } from "@/app/lib/assets";
 import { createPageMetadata } from "@/app/lib/seo";
 
 export const metadata: Metadata = createPageMetadata({
@@ -21,7 +20,7 @@ const journeySteps = [
     title: "Rooted at origin",
     description:
       "Our local knowledge begins in Ethiopia's renowned coffee-growing communities, where altitude, soil, and careful cultivation shape every lot.",
-    src: assetPath("/images/about/root_of_origin.webp"),
+    src: "/images/about/root_of_origin.webp",
     alt: "Coffee-growing hills in Ethiopia",
   },
   {
@@ -30,7 +29,7 @@ const journeySteps = [
     title: "Traceable sourcing",
     description:
       "We collaborate with farmers, processors, and trusted partners to build transparent, dependable supply chains.",
-    src: assetPath("/images/about/sourcing.webp"),
+    src: "/images/about/sourcing.webp",
     alt: "Ethiopian highland coffee landscape",
   },
   {
@@ -39,7 +38,7 @@ const journeySteps = [
     title: "Careful processing",
     description:
       "Washed and natural coffees are prepared with close attention to sorting, drying, consistency, and each coffee's character.",
-    src: assetPath("/images/about/processing.webp"),
+    src: "/images/about/processing.webp",
     alt: "Red coffee cherries drying on raised beds",
   },
   {
@@ -48,7 +47,7 @@ const journeySteps = [
     title: "Quality to export",
     description:
       "Quality control continues through preparation, packaging, and shipment so every coffee arrives ready for the global market.",
-    src: assetPath("/images/about/quality_to_export.webp"),
+    src: "/images/about/quality_to_export.webp",
     alt: "Coffee cherries drying in carefully prepared rows",
   },
 ];
@@ -84,12 +83,12 @@ const operatingAreas = [
 
 export default function AboutPage() {
   return (
-    <main className="about-page">
+    <main id="main-content" tabIndex={-1} className="about-page">
       <Header />
 
       <section className="hero">
         <Image
-          src={assetPath("/images/about/background.webp")}
+          src="/images/about/background.webp"
           alt="Yihonal Coffee"
           fill
           className="hero-bg"
@@ -155,7 +154,7 @@ export default function AboutPage() {
           <div className="about-origin-visual">
             <div className="about-origin-image">
               <Image
-                src={assetPath("/images/about/our_story.webp")}
+                src="/images/about/our_story.webp"
                 alt="Raised coffee drying beds beneath the Ethiopian sky"
                 fill
                 sizes="(max-width: 820px) 92vw, 45vw"
@@ -314,7 +313,7 @@ export default function AboutPage() {
 
       <section className="about-leadership" aria-labelledby="leadership-title">
         <Image
-          src={assetPath("/images/about/background.webp")}
+          src="/images/about/background.webp"
           alt="Ethiopian coffee landscape"
           fill
           sizes="100vw"

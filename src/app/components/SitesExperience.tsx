@@ -1,9 +1,8 @@
 "use client";
 
-import Image from "next/image";
+import Image from "@/app/components/OptimizedImage";
 import { type CSSProperties, useState } from "react";
 import { sites } from "@/app/data/site";
-import { assetPath } from "@/app/lib/assets";
 
 type AltitudeStyle = CSSProperties & {
   "--site-altitude-position": string;
@@ -30,7 +29,7 @@ export default function SitesExperience() {
     <>
       <section className="sites-hero">
         <Image
-          src={assetPath("/images/backgrounds/image.webp")}
+          src="/images/backgrounds/image.webp"
           alt="Ethiopian coffee highlands"
           fill
           sizes="100vw"

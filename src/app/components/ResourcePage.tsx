@@ -1,8 +1,7 @@
 import type { ReactNode } from "react";
-import Image from "next/image";
+import Image from "@/app/components/OptimizedImage";
 import Link from "next/link";
 import Header from "@/app/components/Header";
-import { assetPath } from "@/app/lib/assets";
 
 type ResourcePageProps = {
   kicker: string;
@@ -20,11 +19,11 @@ export default function ResourcePage({
   image = "/images/backgrounds/image3.webp",
 }: ResourcePageProps) {
   return (
-    <main className="resource-page">
+    <main id="main-content" tabIndex={-1} className="resource-page">
       <Header />
       <section className="resource-hero">
         <Image
-          src={assetPath(image)}
+          src={image}
           alt="Ethiopian specialty coffee origin"
           fill
           priority

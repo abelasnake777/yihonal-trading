@@ -4,12 +4,13 @@ import Header from "@/app/components/Header";
 
 export const metadata: Metadata = {
   title: "Page Not Found",
+  alternates: { canonical: null },
   robots: { index: false, follow: true },
 };
 
 export default function NotFound() {
   return (
-    <main className="not-found-page">
+    <main id="main-content" tabIndex={-1} className="not-found-page">
       <Header />
       <section>
         <p>404 · Page not found</p>

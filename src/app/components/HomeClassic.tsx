@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "@/app/components/OptimizedImage";
 import { useEffect, useState } from "react";
 import { awards, contactLinks, featuredAward, heroSlides, products } from "@/app/data/site";
 
@@ -101,7 +101,7 @@ export default function HomeClassic() {
     <>
       <section id="home" className="home">
         {heroSlides.map((slide, index) => (
-          <Image
+          (index === 0 || index === activeSlide || index === previousSlide) && <Image
             key={slide}
             src={slide}
             alt={index === activeSlide ? "Ethiopian coffee highlands" : ""}

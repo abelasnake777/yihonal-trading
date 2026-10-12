@@ -1,11 +1,10 @@
 "use client";
 
-import Image from "next/image";
+import Image from "@/app/components/OptimizedImage";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { navigation } from "@/app/data/site";
-import { assetPath } from "@/app/lib/assets";
 
 export default function Header() {
   const [slideUp, setSlideUp] = useState(false);
@@ -54,7 +53,7 @@ export default function Header() {
         <div className="brand-wrap">
           <Link href="/" onClick={() => setMenuOpen(false)}>
             <Image
-              src={assetPath("/images/yihonal_logo.png")}
+              src="/images/yihonal_logo.png"
               alt="Yihonal Coffee"
               width={90}
               height={90}

@@ -12,7 +12,7 @@ export const metadata: Metadata = createPageMetadata({
 
 export default function ContactPage() {
   return (
-    <main className="dedicated-contact-page">
+    <main id="main-content" tabIndex={-1} className="dedicated-contact-page">
       <Header />
       <section className="dedicated-contact-hero">
         <div>

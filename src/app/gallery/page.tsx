@@ -4,7 +4,6 @@ import path from "node:path";
 import sharp from "sharp";
 import GalleryExperience, { type GalleryImageData } from "@/app/components/GalleryExperience";
 import Header from "@/app/components/Header";
-import { assetPath } from "@/app/lib/assets";
 import { createPageMetadata } from "@/app/lib/seo";
 
 export const metadata: Metadata = createPageMetadata({
@@ -40,6 +39,18 @@ async function findImages(directory: string): Promise<string[]> {
 }
 
 function createAltText(filePath: string) {
+  const descriptions: Record<string, string> = {
+    "image.jpg": "Workers spreading coffee beans on a covered raised drying bed",
+    "image2.jpg": "Coffee beans drying in an even layer on a raised bed",
+    "image3.jpg": "Tree-covered Ethiopian highland landscape beneath a blue sky",
+    "image4.jpg": "Community gathering outdoors at a coffee site",
+    "image5.jpg": "Coffee partners meeting outdoors with members of the local community",
+    "image6.jpg": "Packaged Ethiopian coffee sample inside a shipping box",
+    "image7.jpg": "Coffee shipment boxes prepared for transport",
+    "image8.jpg": "Coffee cherries drying on covered raised beds",
+  };
+  const description = descriptions[path.basename(filePath)];
+  if (description) return "Yihonal Coffee — " + description;
   const name = path
     .basename(filePath, path.extname(filePath))
     .replace(/([a-zA-Z])(\d)/g, "$1 $2")
@@ -92,7 +103,7 @@ async function getGalleryImages(): Promise<GalleryImageData[]> {
         .join("/");
 
       return {
-        src: assetPath("/" + relativePath),
+        src: "/" + relativePath,
         alt: createAltText(filePath),
         width,
         height,
@@ -111,7 +122,7 @@ export default async function GalleryPage() {
   const images = await getGalleryImages();
 
   return (
-    <main className="gallery-page">
+    <main id="main-content" tabIndex={-1} className="gallery-page">
       <Header />
       <GalleryExperience images={images} />
     </main>

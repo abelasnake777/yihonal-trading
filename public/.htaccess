@@ -1,0 +1,49 @@
+# Yihonal Trading production rules for Apache-compatible/LiteSpeed hosting.
+
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+Options -Indexes -MultiViews
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Keep certificate validation reachable before applying redirects.
+  RewriteRule ^\.well-known/acme-challenge/ - [L]
+
+  # Use one canonical HTTPS origin for visitors and search engines.
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP_HOST} !^yihonaltrading\.com(:443)?$ [NC]
+  RewriteRule ^ https://yihonaltrading.com%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+
+  # Next.js uses content-hashed names for these assets.
+  <FilesMatch "\.(?:css|js|mjs|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # Original image filenames can change contents between releases.
+  <FilesMatch "\.(?:webp|avif|png|jpe?g|svg|ico)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+
+  <FilesMatch "\.(?:html|xml|txt|webmanifest)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json application/xml text/xml image/svg+xml
+</IfModule>
+
+# Generated responsive image names include a content hash.
+<IfModule mod_headers.c>
+  <If "%{REQUEST_URI} =~ m#^/optimized/#">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </If>
+</IfModule>

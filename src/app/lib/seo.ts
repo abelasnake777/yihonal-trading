@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 
 export const SITE_NAME = "Yihonal Trading Plc";
 export const SITE_SHORT_NAME = "Yihonal Trading";
-export const DEFAULT_SITE_URL =
-  "https://abelasnake777.github.io/yihonal-trading";
+export const DEFAULT_SITE_URL = "https://yihonaltrading.com";
 
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || DEFAULT_SITE_URL).replace(/\/$/, "");
 
@@ -40,7 +39,7 @@ export function createPageMetadata({
   const socialImage = assetUrl("/images/yihonal-coffee-og.jpg");
 
   return {
-    title,
+    title: { absolute: `${title} | ${SITE_SHORT_NAME}` },
     description,
     keywords,
     alternates: { canonical },

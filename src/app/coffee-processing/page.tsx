@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Image from "@/app/components/OptimizedImage";
 import ResourcePage from "@/app/components/ResourcePage";
 import { products } from "@/app/data/site";
 import { createPageMetadata } from "@/app/lib/seo";

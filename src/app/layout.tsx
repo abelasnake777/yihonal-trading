@@ -109,7 +109,7 @@ const structuredData = {
         height: 527,
       },
       description: DEFAULT_DESCRIPTION,
-      email: "mailto:yihonal4@gmail.com",
+      email: "yihonal4@gmail.com",
       telephone: "+251916823355",
       address: {
         "@type": "PostalAddress",
@@ -154,12 +154,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <noscript>
+          <style>{".about-reveal,.gallery-tile{opacity:1!important;transform:none!important}"}</style>
+        </noscript>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(structuredData).replace(/</g, "\\u003c"),
           }}
         />
+        <a className="skip-to-content" href="#main-content">Skip to content</a>
         {children}
         <SiteFooter />
       </body>

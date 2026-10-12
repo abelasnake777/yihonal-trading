@@ -13,7 +13,7 @@ export const metadata: Metadata = createPageMetadata({
 
 export default function SitesPage() {
   return (
-    <main className="sites-page">
+    <main id="main-content" tabIndex={-1} className="sites-page">
       <Header />
       <SitesExperience />
     </main>
