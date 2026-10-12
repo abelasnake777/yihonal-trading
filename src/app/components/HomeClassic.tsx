@@ -21,11 +21,15 @@ export default function HomeClassic() {
     active: number;
     previous: number | null;
   }>({ active: 0, previous: null });
+  const [loadedSlides, setLoadedSlides] = useState<boolean[]>([]);
+  const [requestedSlide, setRequestedSlide] = useState<number | null>(null);
+  const nextSlide = (activeSlide + 1) % heroSlides.length;
   const [selectedProduct, setSelectedProduct] = useState<string | null>(null);
   const [selectedAward, setSelectedAward] = useState<number | null>(null);
   const [selectedFeaturedImage, setSelectedFeaturedImage] = useState<number | null>(null);
 
   useEffect(() => {
+    if (!loadedSlides[activeSlide] || !loadedSlides[nextSlide] || requestedSlide !== null) return;
     const timer = window.setTimeout(() => {
       setHeroState((current) => ({
         active: (current.active + 1) % heroSlides.length,
@@ -34,7 +38,7 @@ export default function HomeClassic() {
     }, 4800);
 
     return () => window.clearTimeout(timer);
-  }, [activeSlide]);
+  }, [activeSlide, nextSlide, loadedSlides, requestedSlide]);
 
   useEffect(() => {
     if (
@@ -85,12 +89,30 @@ export default function HomeClassic() {
     };
   }, [selectedProduct, selectedAward, selectedFeaturedImage]);
 
+  function recordSlideLoaded(index: number) {
+    setLoadedSlides((current) => {
+      if (current[index]) return current;
+      const next = [...current];
+      next[index] = true;
+      return next;
+    });
+    if (requestedSlide === index) {
+      setHeroState((current) => ({ active: index, previous: current.active }));
+      setRequestedSlide(null);
+    }
+  }
+
   function selectHeroSlide(index: number) {
-    setHeroState((current) =>
-      index === current.active
-        ? current
-        : { active: index, previous: current.active },
-    );
+    if (index === activeSlide) {
+      setRequestedSlide(null);
+      return;
+    }
+    if (!loadedSlides[index]) {
+      setRequestedSlide(index);
+      return;
+    }
+    setRequestedSlide(null);
+    setHeroState((current) => ({ active: index, previous: current.active }));
   }
 
   const activeAward = selectedAward === null ? null : awards[selectedAward];
@@ -101,13 +123,19 @@ export default function HomeClassic() {
     <>
       <section id="home" className="home">
         {heroSlides.map((slide, index) => (
-          (index === 0 || index === activeSlide || index === previousSlide) && <Image
+          (index === 0 || index === activeSlide || index === previousSlide || index === requestedSlide || (loadedSlides[activeSlide] && index === nextSlide)) && <Image
             key={slide}
             src={slide}
             alt={index === activeSlide ? "Ethiopian coffee highlands" : ""}
             aria-hidden={index !== activeSlide}
             fill
             priority={index === 0}
+            loading="eager"
+            fetchPriority={index === activeSlide ? "high" : "low"}
+            onLoad={() => recordSlideLoaded(index)}
+            ref={(image) => {
+              if (image?.complete && image.naturalWidth > 0) recordSlideLoaded(index);
+            }}
             sizes="100vw"
             className={
               "home-slide" +

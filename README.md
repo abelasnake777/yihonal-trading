@@ -7,7 +7,7 @@ Production website for Yihonal Trading Plc, an Ethiopian specialty coffee suppli
 - Next.js App Router with static export
 - React and TypeScript
 - Plain responsive CSS
-- Sharp for build-time responsive WebP images and gallery metadata
+- Sharp for build-time responsive AVIF and WebP images and gallery metadata
 - Static hosting through Yegara DirectAdmin/LiteSpeed
 
 ## Development
@@ -71,7 +71,7 @@ The exported `.htaccess` supplies the canonical HTTPS redirect, custom 404, dire
 
 ## Responsive images and verification
 
-Builds generate responsive WebP variants from the original images. `OptimizedImage` uses standard HTML `srcset`, reserves image dimensions, and lazy-loads images below the fold. Generated filenames contain a content hash for safe long-term caching. Originals are preserved. The homepage initially renders only the first background instead of downloading all slides together.
+Builds generate responsive AVIF variants with WebP fallbacks from the original images. `OptimizedImage` uses standard HTML `srcset`, reserves image dimensions, and lazy-loads images below the fold. Generated filenames contain a content hash for safe long-term caching. Originals are preserved. The homepage initially renders only the first background. After it loads, the next slide loads at low priority; transitions wait for loaded images. Release ZIPs explicitly set file permissions to 644 for shared hosting.
 
 `npm run check:export` verifies production canonical URLs, branded titles, descriptions, one H1 per page, image descriptions and responsive variants, local assets and routes, structured-data JSON, sitemap, robots.txt, and error-page noindex behavior. It also rejects server image-optimization URLs in the static export.
 
