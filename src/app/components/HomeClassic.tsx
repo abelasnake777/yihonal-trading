@@ -3,6 +3,7 @@
 import Image from "@/app/components/OptimizedImage";
 import { useEffect, useState } from "react";
 import { awards, contactLinks, featuredAward, heroSlides, products } from "@/app/data/site";
+import { useTranslation } from "@/i18n/I18nContext";
 
 const productDescriptions: Record<string, string> = {
   Washed:
@@ -17,6 +18,7 @@ const productDescriptions: Record<string, string> = {
 };
 
 export default function HomeClassic() {
+  const { t } = useTranslation();
   const [{ active: activeSlide, previous: previousSlide }, setHeroState] = useState<{
     active: number;
     previous: number | null;
@@ -148,10 +150,10 @@ export default function HomeClassic() {
           />
         ))}
         <div className="home-content">
-          <h1>Traceable Ethiopian Specialty Coffee for International Buyers</h1>
-          <p>From the highlands of Ethiopia to roasters around the world.</p>
+          <h1>{t("hero.exporterTitle", "Traceable Ethiopian Specialty Coffee for International Buyers")}</h1>
+          <p>{t("hero.exporterDesc", "From the highlands of Ethiopia to roasters around the world.")}</p>
           <a href="#products" className="btn">
-            Explore Products
+            {t("common.viewProducts", "Explore Products")}
           </a>
         </div>
 
@@ -178,52 +180,61 @@ export default function HomeClassic() {
         <div className="products-shell">
           <div className="products-heading">
             <div>
-              <p className="products-kicker">Our processing range</p>
-              <h2 id="products-title">Coffee, expressed five ways.</h2>
+              <p className="products-kicker">{t("products.kicker", "Our processing range")}</p>
+              <h2 id="products-title">{t("products.title", "Coffee, expressed five ways.")}</h2>
             </div>
             <p>
-              From classic washed and natural lots to honey, anaerobic, and experimental work,
-              each process reveals a distinct expression of Ethiopian coffee.
+              {t(
+                "products.intro",
+                "From classic washed and natural lots to honey, anaerobic, and experimental work, each process reveals a distinct expression of Ethiopian coffee."
+              )}
             </p>
           </div>
 
           <div className="products-grid">
-            {products.map((product, index) => (
-              <button
-                key={product.name}
-                type="button"
-                className="product-card"
-                onClick={() => setSelectedProduct(product.name)}
-                aria-label={"Open " + product.name + " product profile"}
-              >
-                <span className="product-image-wrap">
-                  <Image
-                    src={product.image}
-                    alt={product.name + " coffee process"}
-                    fill
-                    sizes="(max-width: 700px) 92vw, (max-width: 968px) 31vw, 390px"
-                    className="product-image"
-                  />
-                  <span className="product-image-shade" />
-                  <span className="product-index">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
-                  <span className="product-process-label">Process</span>
-                </span>
+            {products.map((product, index) => {
+              const pKey = product.name.toLowerCase();
+              const pName = t(`products.${pKey}.name`, product.name);
+              const pNotes = t(`products.${pKey}.notes`, product.notes);
+              const pDesc = t(`products.${pKey}.desc`, product.description);
 
-                <span className="product-content">
-                  <h3>{product.name}</h3>
-                  <p className="product-notes">
-                    <span>Cup notes</span>
-                    {product.notes}
-                  </p>
-                  <p className="product-description">{product.description}</p>
-                  <span className="learn-more">
-                    Explore profile <span aria-hidden="true">&#8594;</span>
+              return (
+                <button
+                  key={product.name}
+                  type="button"
+                  className="product-card"
+                  onClick={() => setSelectedProduct(product.name)}
+                  aria-label={"Open " + pName + " product profile"}
+                >
+                  <span className="product-image-wrap">
+                    <Image
+                      src={product.image}
+                      alt={pName + " coffee process"}
+                      fill
+                      sizes="(max-width: 700px) 92vw, (max-width: 968px) 31vw, 390px"
+                      className="product-image"
+                    />
+                    <span className="product-image-shade" />
+                    <span className="product-index">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <span className="product-process-label">Process</span>
                   </span>
-                </span>
-              </button>
-            ))}
+
+                  <span className="product-content">
+                    <h3>{pName}</h3>
+                    <p className="product-notes">
+                      <span>{t("products.notesLabel", "Cup notes")}</span>
+                      {pNotes}
+                    </p>
+                    <p className="product-description">{pDesc}</p>
+                    <span className="learn-more">
+                      {t("common.learnMore", "Explore profile")} <span aria-hidden="true">&#8594;</span>
+                    </span>
+                  </span>
+                </button>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -236,19 +247,26 @@ export default function HomeClassic() {
           aria-labelledby="modal-title"
         >
           <div className="modal-content">
-            <p className="product-modal-kicker">Product profile</p>
+            <p className="product-modal-kicker">{t("products.dialogTitle", "Product profile")}</p>
             <button
               type="button"
               onClick={() => setSelectedProduct(null)}
               className="close-btn"
-              aria-label="Close modal"
+              aria-label={t("common.close", "Close modal")}
               autoFocus
             >
               &times;
             </button>
-            <h2 id="modal-title">{selectedProduct}</h2>
+            <h2 id="modal-title">
+              {t(`products.${selectedProduct.toLowerCase()}.name`, selectedProduct)}
+            </h2>
             <div id="modal-text">
-              <p>{productDescriptions[selectedProduct]}</p>
+              <p>
+                {t(
+                  `products.${selectedProduct.toLowerCase()}.details`,
+                  productDescriptions[selectedProduct] || ""
+                )}
+              </p>
             </div>
           </div>
         </div>
@@ -261,10 +279,10 @@ export default function HomeClassic() {
           <div className="awards-heading">
             <p className="awards-eyebrow">
               <span aria-hidden="true" />
-              Our recognition archive
+              {t("awards.kicker", "Our recognition archive")}
               <span aria-hidden="true" />
             </p>
-            <h2>Recognition, earned.</h2>
+            <h2>{t("awards.title", "Recognition, earned.")}</h2>
             <p className="awards-intro">
               A collection of honors celebrating Yihonal Coffee&apos;s commitment to quality,
               craft, and exceptional Ethiopian coffee.
@@ -281,9 +299,9 @@ export default function HomeClassic() {
                 <span aria-hidden="true">&#10022;</span>
                 Highest recognition
               </p>
-              <h3 id="featured-award-title">{featuredAward.title}</h3>
-              <strong>{featuredAward.result}</strong>
-              <p>{featuredAward.description}</p>
+              <h3 id="featured-award-title">{t("awards.featuredTitle", featuredAward.title)}</h3>
+              <strong>{t("awards.featuredResult", featuredAward.result)}</strong>
+              <p>{t("awards.featuredDesc", featuredAward.description)}</p>
               <div className="featured-award-meta" aria-label="Award details">
                 <span>Africa Finals</span>
                 <span>2025</span>
@@ -502,7 +520,7 @@ export default function HomeClassic() {
             </a>
           </div>
           <div className="contact-info">
-            <h2>Get in Touch</h2>
+            <h2>{t("common.contactUs", "Get in Touch")}</h2>
             <p>
               We&apos;d love to hear from you &mdash; roasters, caf&eacute;s, or coffee lovers.
             </p>
@@ -532,7 +550,7 @@ export default function HomeClassic() {
               rel="noreferrer"
               className="whatsapp-btn"
             >
-              Message on WhatsApp
+              {t("contact.messageWhatsApp", "Message on WhatsApp")}
             </a>
           </div>
         </div>

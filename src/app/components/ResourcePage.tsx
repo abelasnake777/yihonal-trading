@@ -1,7 +1,10 @@
+"use client";
+
 import type { ReactNode } from "react";
 import Image from "@/app/components/OptimizedImage";
 import Link from "next/link";
 import Header from "@/app/components/Header";
+import { useTranslation } from "@/i18n/I18nContext";
 
 type ResourcePageProps = {
   kicker: string;
@@ -18,6 +21,8 @@ export default function ResourcePage({
   children,
   image = "/images/backgrounds/image3.webp",
 }: ResourcePageProps) {
+  const { t } = useTranslation();
+
   return (
     <main id="main-content" tabIndex={-1} className="resource-page">
       <Header />
@@ -43,10 +48,12 @@ export default function ResourcePage({
         {children}
         <aside className="resource-cta">
           <div>
-            <p>For international coffee buyers</p>
-            <h2>Request coffee information or start a sourcing conversation.</h2>
+            <p>{t("resource.buyerKicker", "For international coffee buyers")}</p>
+            <h2>{t("resource.buyerTitle", "Request coffee information or start a sourcing conversation.")}</h2>
           </div>
-          <Link href="/contact">Contact Yihonal Trading <span aria-hidden="true">→</span></Link>
+          <Link href="/contact">
+            {t("resource.contactCta", "Contact Yihonal Trading")} <span aria-hidden="true">→</span>
+          </Link>
         </aside>
       </article>
     </main>

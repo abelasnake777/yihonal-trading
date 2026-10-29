@@ -1,0 +1,204 @@
+{
+  "common": {
+    "brandName": "Yihonal Kaffee",
+    "companyName": "Yihonal Trading Plc",
+    "tagline": "Rückverfolgbarer äthiopischer Spezialitätenkaffee, weltweit vernetzt.",
+    "subTagline": "Äthiopischer Spezialitätenkaffee-Lieferant und Exporteur",
+    "contactUs": "Kontaktieren Sie uns",
+    "exploreSites": "Anbaugebiete entdecken",
+    "viewProducts": "Sortiment ansehen",
+    "learnMore": "Mehr erfahren",
+    "backToHome": "Zur Startseite",
+    "skipToContent": "Zum Hauptinhalt springen",
+    "close": "Schließen",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "origin": "Herkunft · Äthiopien",
+    "rightsReserved": "Alle Rechte vorbehalten."
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "products": "Produkte",
+    "awards": "Auszeichnungen",
+    "sites": "Anbaustätten",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "openMenu": "Navigationsmenü öffnen",
+    "closeMenu": "Navigationsmenü schließen",
+    "selectLanguage": "Sprache wählen",
+    "autoDetect": "Automatische Standorterkennung",
+    "detectedFrom": "Erkannt aus"
+  },
+  "hero": {
+    "title": "Yihonal Kaffee",
+    "tagline": "Handverlesen in Äthiopien, mit Sorgfalt veredelt",
+    "exporterTitle": "Äthiopischer Spezialitätenkaffee-Exporteur",
+    "exporterDesc": "Lieferung von rückverfolgbarem Spezialitätenkaffee aus den Höhenlagen von Sidama – mit Direkteinkauf, Aufbereitung, Qualitätsprüfung und verlässlicher Exportlogistik für internationale Einkäufer.",
+    "scrollDown": "Nach unten scrollen"
+  },
+  "highlights": {
+    "origin": "Direkt vom Ursprung",
+    "originDesc": "Angebaut in den renommierten Hochland-Terroirs Äthiopiens.",
+    "traceability": "Vollständige Rückverfolgbarkeit",
+    "traceabilityDesc": "Lückenlose Dokumentation von der Ernte bis zur Verschiffung.",
+    "processing": "Vielfältige Aufbereitung",
+    "processingDesc": "Gewaschen, natürlich aufbereitet, Honey, anaerob und experimentelle Lots.",
+    "export": "Weltweiter Export",
+    "exportDesc": "Reibungslose internationale Frachtabwicklung und persönlicher Kundenservice."
+  },
+  "products": {
+    "kicker": "Unsere Spezialitäten",
+    "title": "Charakterstarke äthiopische Kaffees",
+    "intro": "Sorgfältig aufbereitet für Kaffeeröster, Importeure und Fachbetriebe weltweit.",
+    "clickForDetails": "Für Details anklicken",
+    "notesLabel": "Aromaprofil",
+    "dialogTitle": "Produktübersicht",
+    "washed": {
+      "name": "Gewaschen (Washed)",
+      "notes": "Blumig, Zitrusnoten, strahlend klar",
+      "desc": "Klare gewaschene Lots für Röster, die Eleganz und eine verlässliche Tassenstruktur schätzen.",
+      "details": "Ausgewählt für spritzige Säure, feine florale Nuancen und balancierte Struktur. Ideal für Filterzubereitungen."
+    },
+    "natural": {
+      "name": "Natürlich (Natural)",
+      "notes": "Samtig, süß, beerig, harmonisch",
+      "desc": "Sonnengewaschene Bohnen mit vollem Körper, beeriger Süße und traditionellem Geschmacksprofil.",
+      "details": "Schonend auf Hochbeeten getrocknet, wodurch ein runder Körper und intensive Beerennoten entstehen."
+    },
+    "honey": {
+      "name": "Honey Processed",
+      "notes": "Fruchtig, cremiger Körper, seidig",
+      "desc": "Mit Fruchtfleischresten getrocknet – für eine ausgewogene Balance aus Frucht und Süße.",
+      "details": "Erhält gezielt Fruchtsüße bei der Trocknung und schenkt ein samtweiches Mundgefühl mit langanhaltendem Finish."
+    },
+    "anaerobic": {
+      "name": "Anaerob fermentiert",
+      "notes": "Expressive Tropenfrüchte, vielschichtig, intensiv",
+      "desc": "Unter Luftabschluss fermentiert, um einzigartige Fruchtkomplexe und Tiefe zu entfalten.",
+      "details": "Die anaerobe Gärung in versiegelten Tanks betont exotische Fruchtaromen und sorgt für eine facettenreiche Süße."
+    },
+    "experimental": {
+      "name": "Experimentell (Experimental)",
+      "notes": "Innovativ, streng limitiert, unverwechselbar",
+      "desc": "Exklusive Versuchschargen mit innovativen Verarbeitungstechniken.",
+      "details": "Informationen und Musterproben stellen wir qualifizierten B2B-Käufern gerne persönlich bereit."
+    }
+  },
+  "awards": {
+    "kicker": "Anerkennung & Auszeichnungen",
+    "title": "International prämierte Spitzenqualität",
+    "featuredTitle": "Taste of Harvest 2025",
+    "featuredResult": "3. Platz · Honey Processed Arabica",
+    "featuredDesc": "Yihonal Trading wurde beim afrikanischen Taste of Harvest 2025 Finale mit dem 3. Platz ausgezeichnet.",
+    "viewCertificate": "Urkunde ansehen",
+    "galleryTitle": "Zertifikate & Urkunden",
+    "dialogTitle": "Auszeichnungs-Viewer"
+  },
+  "sites": {
+    "kicker": "Unsere Anbaugebiete",
+    "title": "Die Orte hinter unserem Kaffee.",
+    "subtitle": "Entdecken Sie vier äthiopische Anbaustätten anhand ihrer Höhenlagen und Bildarchive. Wählen Sie unten eine Station aus.",
+    "elevationRange": "Höhenbereich",
+    "exploreLink": "Anbaugebiete erkunden",
+    "chooseOrigin": "Ursprung wählen",
+    "fourSites": "Vier Standorte, vier Höhenlagen.",
+    "fourSitesDesc": "Jedes Profil vereint Höhenlage, Terroir-Besonderheiten und Bilddokumentationen direkt vom Ursprung.",
+    "altitudeBadge": "Höhenlage",
+    "metresAsl": "m ü. M.",
+    "elevationProfile": "Höhenprofil",
+    "aboveSeaLevel": "Meter über dem Meeresspiegel.",
+    "highElevation": "Hochland-Spezialitätenkaffee aus",
+    "region": "Region",
+    "localArea": "Gebiet",
+    "variety": "Varietät",
+    "processingSystem": "Aufbereitungsmethode",
+    "archiveNote": "Jede Galerie basiert auf dem Bildarchiv der jeweiligen Aufbereitungsstation.",
+    "siteNumber": "Standort",
+    "originArchive": "Ursprungsarchiv"
+  },
+  "gallery": {
+    "kicker": "Feldnotizen · Äthiopien",
+    "title": "Geschichten aus dem Ursprung.",
+    "subtitle": "Authentische, ungefilterte Einblicke von Hochlandfarmen, Trockenbetten und den Menschen, die jeden Lot veredeln.",
+    "moments": "Momente",
+    "livingArchive": "Ein lebendiges Archiv",
+    "archiveKicker": "Bildarchiv",
+    "archiveTitle": "Kaffee, Gemeinschaft und Handwerk.",
+    "archiveSubtitle": "Jedes Bild erzählt einen Teil unserer Geschichte. Klicken Sie für die Vollansicht.",
+    "moreMoments": "Neue Eindrücke werden fortlaufend ergänzt",
+    "dialogTitle": "Galerie-Bildbetrachter"
+  },
+  "about": {
+    "heroTitle": "Yihonal Kaffee",
+    "heroTagline": "Handverlesen in Äthiopien, mit Sorgfalt veredelt",
+    "journeyKicker": "Unser Werdegang",
+    "journeyTitle": "Verwurzelt im Ursprung, kompromisslos in der Qualität.",
+    "step1Label": "Das Land",
+    "step1Title": "Verwurzelt im Ursprung",
+    "step1Desc": "Unsere Expertise beginnt in den Kaffeegemeinschaften Äthiopiens, wo Höhenlage und nährstoffreiche Böden den Geschmack formen.",
+    "step2Label": "Partnerschaft",
+    "step2Title": "Transparenter Einkauf",
+    "step2Desc": "Enge Kooperation mit Kleinbauern und Stationen für faire, verlässliche und nachhaltige Lieferketten.",
+    "step3Label": "Handwerkskunst",
+    "step3Title": "Präzise Verarbeitung",
+    "step3Desc": "Sorgfältige Handsortierung und kontrollierte Trocknung bringen das individuelle Profil jeder Bohne zur Geltung.",
+    "step4Label": "Qualitätsversprechen",
+    "step4Title": "Vom Ursprung zum Export",
+    "step4Desc": "Strenge Qualitätskontrolle bis zur Ausfuhrverpackung sichert Frische und Güte für den Weltmarkt.",
+    "valuesKicker": "Leitprinzipien",
+    "valuesTitle": "Unsere Werte",
+    "value1Title": "Ehrliches Handeln",
+    "value1Desc": "Faire, verantwortungsbewusste und transparente Geschäftspraktiken auf allen Ebenen.",
+    "value2Title": "Kundenfokus",
+    "value2Desc": "Persönlicher und professioneller Service, abgestimmt auf individuelle Rösterwünsche.",
+    "value3Title": "Konstante Güte",
+    "value3Desc": "Gewissenhafte Arbeit, die internationale Qualitätsstandards zuverlässig übertrifft.",
+    "value4Title": "Gemeinsame Zukunft",
+    "value4Desc": "Förderung Äthiopiens, seiner Menschen und der Kaffeebauerngemeinschaften."
+  },
+  "contact": {
+    "kicker": "Kontakt zu Yihonal Trading Plc",
+    "title": "Starten Sie das Gespräch über äthiopischen Spezialitätenkaffee.",
+    "subtitle": "Internationale Einkäufer, Röstereien und Gastronomen können sich für Rohkaffee-Muster und Anfragen direkt an uns wenden.",
+    "companyContact": "Unternehmenskontakt",
+    "locationLabel": "Standort",
+    "locationValue": "Addis Abeba, Bole, Äthiopien",
+    "phoneLabel": "Telefon / WhatsApp",
+    "emailLabel": "E-Mail",
+    "instagramLabel": "Instagram",
+    "messageWhatsApp": "Nachricht via WhatsApp senden",
+    "mapTitle": "Standort von Yihonal Trading in Addis Abeba, Bole"
+  },
+  "resource": {
+    "buyerKicker": "Für internationale Kaffeeeinkäufer",
+    "buyerTitle": "Kaffeemuster anfordern oder ein Einkaufsgespräch beginnen.",
+    "contactCta": "Yihonal Trading kontaktieren",
+    "exploreProcessing": "Kaffeeaufbereitungsmethoden ansehen"
+  },
+  "footer": {
+    "kicker": "Yihonal Trading Plc",
+    "title": "Rückverfolgbarer äthiopischer Spezialitätenkaffee, weltweit vernetzt.",
+    "desc": "Beschaffung, Aufbereitung, Qualitätsprüfung und Exportabwicklung von Spezialitätenkaffee aus Addis Abeba und Sidama, Äthiopien.",
+    "coffee": "Kaffeesorten",
+    "company": "Unternehmen",
+    "contact": "Kontakt",
+    "ethiopianCoffee": "Äthiopischer Kaffee",
+    "sidamaCoffee": "Sidama Kaffee",
+    "coffeeProcessing": "Kaffeeaufbereitung",
+    "qualityTraceability": "Qualität & Rückverfolgbarkeit",
+    "exportServices": "Export-Dienstleistungen",
+    "about": "Über uns",
+    "sites": "Anbaugebiete",
+    "gallery": "Fotogalerie",
+    "address": "Addis Abeba, Bole, Äthiopien",
+    "rights": "Alle Rechte vorbehalten.",
+    "tagline": "Äthiopischer Spezialitätenkaffee-Lieferant und Exporteur"
+  },
+  "geoBanner": {
+    "detectedNotice": "Ihr Standort wurde als {country} erkannt. Sprache auf {lang} eingestellt.",
+    "switchPrompt": "Zu Englisch wechseln",
+    "stay": "{lang} beibehalten"
+  }
+}
+

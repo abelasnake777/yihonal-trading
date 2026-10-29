@@ -5,11 +5,24 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { navigation } from "@/app/data/site";
+import LanguageSwitcher from "@/app/components/LanguageSwitcher";
+import { useTranslation } from "@/i18n/I18nContext";
+
+const navTranslationKeys: Record<string, string> = {
+  Home: "nav.home",
+  About: "nav.about",
+  Products: "nav.products",
+  Awards: "nav.awards",
+  Sites: "nav.sites",
+  Gallery: "nav.gallery",
+  Contact: "nav.contact",
+};
 
 export default function Header() {
   const [slideUp, setSlideUp] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
+  const { t } = useTranslation();
 
   useEffect(() => {
     let lastScroll = 0;
@@ -54,37 +67,26 @@ export default function Header() {
           <Link href="/" onClick={() => setMenuOpen(false)}>
             <Image
               src="/images/yihonal_logo.png"
-              alt="Yihonal Coffee"
+              alt={t("common.brandName", "Yihonal Coffee")}
               width={90}
               height={90}
               className="logo"
               priority
             />
           </Link>
-          <span className="brand-name">Yihonal Coffee</span>
+          <span className="brand-name">{t("common.brandName", "Yihonal Coffee")}</span>
         </div>
-
-        <button
-          type="button"
-          className={"menu-toggle" + (menuOpen ? " is-open" : "")}
-          aria-expanded={menuOpen}
-          aria-controls="primary-navigation"
-          aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
-          onClick={() => setMenuOpen((isOpen) => !isOpen)}
-        >
-          <span />
-          <span />
-          <span />
-        </button>
 
         <nav
           id="primary-navigation"
           className={menuOpen ? "is-open" : ""}
-          aria-label="Primary navigation"
+          aria-label={t("nav.openMenu", "Primary navigation")}
         >
           {navigation.map((item) => {
             const isPageLink = !item.href.includes("#");
             const isActive = isPageLink && pathname === item.href;
+            const transKey = navTranslationKeys[item.label];
+            const translatedLabel = transKey ? t(transKey, item.label) : item.label;
 
             return (
               <Link
@@ -93,11 +95,30 @@ export default function Header() {
                 className={isActive ? "active" : ""}
                 onClick={() => setMenuOpen(false)}
               >
-                {item.label}
+                {translatedLabel}
               </Link>
             );
           })}
+          <div className="nav-mobile-lang">
+            <LanguageSwitcher />
+          </div>
         </nav>
+
+        <div className="header-controls">
+          <LanguageSwitcher className="header-desktop-lang" />
+          <button
+            type="button"
+            className={"menu-toggle" + (menuOpen ? " is-open" : "")}
+            aria-expanded={menuOpen}
+            aria-controls="primary-navigation"
+            aria-label={menuOpen ? t("nav.closeMenu", "Close navigation menu") : t("nav.openMenu", "Open navigation menu")}
+            onClick={() => setMenuOpen((isOpen) => !isOpen)}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
+        </div>
       </header>
 
       <button

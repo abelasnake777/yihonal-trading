@@ -1,0 +1,204 @@
+{
+  "common": {
+    "brandName": "이호날 커피",
+    "companyName": "Yihonal Trading Plc",
+    "tagline": "산지가 증명하는 에티오피아 스페셜티 커피, 세계를 잇다.",
+    "subTagline": "에티오피아 스페셜티 커피 공급 및 수출 전문기업",
+    "contactUs": "문의하기",
+    "exploreSites": "산지 농장 둘러보기",
+    "viewProducts": "제품 라인업",
+    "learnMore": "더 알아보기",
+    "backToHome": "홈으로 돌아가기",
+    "skipToContent": "본문 바로가기",
+    "close": "닫기",
+    "previous": "이전",
+    "next": "다음",
+    "origin": "원산지 · 에티오피아",
+    "rightsReserved": "All rights reserved."
+  },
+  "nav": {
+    "home": "홈",
+    "about": "회사 소개",
+    "products": "커피 제품",
+    "awards": "수상 내역",
+    "sites": "산지 농장",
+    "gallery": "갤러리",
+    "contact": "문의처",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "selectLanguage": "언어 선택",
+    "autoDetect": "위치 기반 자동 감지",
+    "detectedFrom": "감지된 국가"
+  },
+  "hero": {
+    "title": "이호날 커피",
+    "tagline": "에티오피아 고지대에서 핸드픽으로 수확하고 정성으로 빚어낸 한 잔",
+    "exporterTitle": "에티오피아 스페셜티 커피 수출 기업",
+    "exporterDesc": "시다마 고지대 농장에서 직접 수확한 생두의 소싱, 정밀 가공, 철저한 품질 관리 및 글로벌 수출 서비스를 전 세계 바이어에게 제공합니다.",
+    "scrollDown": "아래로 스크롤"
+  },
+  "highlights": {
+    "origin": "산지 직송 소싱",
+    "originDesc": "에티오피아의 비옥한 최고 해발 테루아에서 자라난 스페셜티 커피.",
+    "traceability": "완벽한 이력 추적",
+    "traceabilityDesc": "수확부터 선적까지 전 과정을 롯(Lot) 단위로 투명하게 기록.",
+    "processing": "다양한 가공 프로세스",
+    "processingDesc": "워시드, 내추럴, 허니, 무산소 발효(아나에어로빅) 및 실험적 가공.",
+    "export": "안정적인 글로벌 수출",
+    "exportDesc": "전문적인 해외 운송 물류와 신속한 바이어 커뮤니케이션 지원."
+  },
+  "products": {
+    "kicker": "스페셜티 커피 셀렉션",
+    "title": "독보적인 풍미의 에티오피아 커피 롯",
+    "intro": "전 세계 로스터, 생두 수입사 및 스페셜티 카페를 위해 엄선된 커피입니다.",
+    "clickForDetails": "상세 정보 보기",
+    "notesLabel": "컵 노트",
+    "dialogTitle": "제품 개요",
+    "washed": {
+      "name": "워시드 (Washed)",
+      "notes": "꽃향기, 시트러스, 깔끔하고 밝은 산미",
+      "desc": "깔끔하고 투명한 컵 퀄리티와 일관된 구조감을 원하는 로스터를 위한 수세식 커피.",
+      "details": "정밀한 발효와 세척을 거쳐 맑은 산미와 우아한 플로럴 아로마가 돋보입니다. 필터 드립 커피에 최적입니다."
+    },
+    "natural": {
+      "name": "내추럴 (Natural)",
+      "notes": "부드러움, 베리의 단맛, 조화로운 밸런스",
+      "desc": "과육 그대로 햇볕에 건조하여 풍부한 바디감과 베리류의 달콤함이 살아있는 전통 에티오피아 스타일.",
+      "details": "체리를 아프리칸 베드에서 세심하게 천천히 건조하여 과육 본연의 단맛과 묵직한 바디감을 완성합니다."
+    },
+    "honey": {
+      "name": "허니 프로세스 (Honey)",
+      "notes": "풍부한 과일향, 실키한 바디감",
+      "desc": "과육의 점액질을 남겨 건조하여 과일의 산미와 꿀 같은 단맛의 균형을 이룬 커피.",
+      "details": "건조 중 점액질을 일정 비율 유지하여 열대과일의 향미와 부드러운 마우스필을 구현합니다."
+    },
+    "anaerobic": {
+      "name": "아나에어로빅 (무산소 발효)",
+      "notes": "농익은 과일향, 생동감 있는 산미, 복합적인 풍미",
+      "desc": "밀폐된 무산소 탱크에서 발효하여 강렬한 과일 캐릭터와 깊은 단맛을 끌어낸 스페셜티 롯.",
+      "details": "산소가 통제된 탱크에서 정밀한 발효 과정을 거쳐 독특하고 다채로운 아로마를 자랑합니다."
+    },
+    "experimental": {
+      "name": "익스페리멘탈 (Experimental)",
+      "notes": "혁신적, 한정 수량, 독창적 프로파일",
+      "desc": "새로운 시도로 탄생한 특별 한정 생산 실험 가공 커피.",
+      "details": "해당 롯의 상세 스펙과 샘플은 관심 있는 바이어에게 개별 제공됩니다."
+    }
+  },
+  "awards": {
+    "kicker": "수상 및 인증",
+    "title": "산지에서 공인받은 탁월한 품질",
+    "featuredTitle": "2025 테이스트 오브 하베스트 (Taste of Harvest)",
+    "featuredResult": "3위 수상 · 허니 프로세스 아라비카 부문",
+    "featuredDesc": "Yihonal Trading은 2025년 아프리카 Taste of Harvest 결선에서 3위를 수상하였습니다.",
+    "viewCertificate": "상장 확인하기",
+    "galleryTitle": "수상 증서 갤러리",
+    "dialogTitle": "수상 내역 뷰어"
+  },
+  "sites": {
+    "kicker": "커피 산지 농장",
+    "title": "커피가 태어나는 에티오피아의 땅.",
+    "subtitle": "해발 고도와 현장 사진 아카이브를 통해 4대 산지 사이트를 만나보세요. 아래에서 사이트를 선택하세요.",
+    "elevationRange": "해발 고도 범위",
+    "exploreLink": "산지 농장 살펴보기",
+    "chooseOrigin": "산지 선택",
+    "fourSites": "4곳의 산지, 4가지 해발고도.",
+    "fourSitesDesc": "각 프로파일은 독자적인 해발 고도, 지리적 특성, 현장 기록 사진을 담고 있습니다.",
+    "altitudeBadge": "해발고도",
+    "metresAsl": "m (해수면 위)",
+    "elevationProfile": "고도 프로파일",
+    "aboveSeaLevel": "m 해발 고도.",
+    "highElevation": "고지대 재배 프리미엄 스페셜티 커피:",
+    "region": "지역",
+    "localArea": "세부 구역",
+    "variety": "품종",
+    "processingSystem": "가공 방식",
+    "archiveNote": "모든 갤러리는 실제 농장 현장에서 직접 촬영된 사진으로 구성되어 있습니다.",
+    "siteNumber": "사이트",
+    "originArchive": "산지 기록관"
+  },
+  "gallery": {
+    "kicker": "현장 기록 · 에티오피아",
+    "title": "산지에서 전하는 생생한 이야기.",
+    "subtitle": "고지대 농장부터 건조대, 커피 한 알에 정성을 다하는 농부들의 손길까지 가공되지 않은 진짜 커피의 순간들.",
+    "moments": "개의 순간",
+    "livingArchive": "살아있는 산지 아카이브",
+    "archiveKicker": "포토 아카이브",
+    "archiveTitle": "커피, 공동체, 그리고 장인정신.",
+    "archiveSubtitle": "모든 사진 한 장이 이야기의 일부입니다. 클릭하여 원본으로 감상하세요.",
+    "moreMoments": "새로운 순간들이 지속적으로 업데이트됩니다",
+    "dialogTitle": "갤러리 이미지 뷰어"
+  },
+  "about": {
+    "heroTitle": "이호날 커피",
+    "heroTagline": "에티오피아 고지대에서 핸드픽으로 수확하고 정성으로 빚어낸 한 잔",
+    "journeyKicker": "우리의 여정",
+    "journeyTitle": "원산지에 뿌리를 두고, 타협 없는 품질을 지향합니다.",
+    "step1Label": "대지",
+    "step1Title": "원산지의 깊은 뿌리",
+    "step1Desc": "에티오피아 유수의 커피 재배지에서 해발 고도, 기름진 토양, 세심한 관리가 한 알의 커피를 빚어냅니다.",
+    "step2Label": "신뢰와 관계",
+    "step2Title": "투명한 소싱",
+    "step2Desc": "지역 농부 및 가공 스테이션과 긴밀하게 소통하며 지속 가능하고 투명한 공급망을 유지합니다.",
+    "step3Label": "장인정신",
+    "step3Title": "정밀한 가공",
+    "step3Desc": "체리 선별부터 건조, 수분율 관리까지 엄격한 기준을 적용해 고유의 개성을 살립니다.",
+    "step4Label": "품질 약속",
+    "step4Title": "수출까지 이어지는 완벽함",
+    "step4Desc": "선적 준비와 포장, 정밀 그레이딩을 거쳐 세계 시장으로 완벽한 상태의 생두를 출하합니다.",
+    "valuesKicker": "핵심 가치",
+    "valuesTitle": "우리의 신념",
+    "value1Title": "정직한 비즈니스",
+    "value1Desc": "모든 거래 과정에서 공정하고 책임감 있는 투명성을 실천합니다.",
+    "value2Title": "고객 중심",
+    "value2Desc": "각 바이어의 니즈에 맞춘 신속하고 전문적인 맞춤형 서비스를 제공합니다.",
+    "value3Title": "변함없는 품질",
+    "value3Desc": "기대를 뛰어넘는 최상급 커피를 공급하기 위해 끊임없이 품질을 검증합니다.",
+    "value4Title": "상생과 발전",
+    "value4Desc": "에티오피아 지역 사회와 커피 농가의 지속 가능한 번영에 기여합니다."
+  },
+  "contact": {
+    "kicker": "Yihonal Trading Plc 문의",
+    "title": "에티오피아 스페셜티 커피 수입 및 파트너십 상담.",
+    "subtitle": "글로벌 생두 바이어, 로스터리, 카페 관계자분들의 제품 문의, 견적 요청, 샘플 신청을 언제나 환영합니다.",
+    "companyContact": "회사 연락처",
+    "locationLabel": "위치",
+    "locationValue": "에티오피아 아디스아바바 볼레",
+    "phoneLabel": "전화 / WhatsApp",
+    "emailLabel": "이메일",
+    "instagramLabel": "인스타그램",
+    "messageWhatsApp": "WhatsApp으로 메시지 보내기",
+    "mapTitle": "아디스아바바 볼레 위치 지도"
+  },
+  "resource": {
+    "buyerKicker": "글로벌 커피 바이어 전용",
+    "buyerTitle": "생두 샘플 요청 및 소싱 상담을 시작하세요.",
+    "contactCta": "Yihonal Trading에 문의하기",
+    "exploreProcessing": "이호날의 커피 가공 방식 보기"
+  },
+  "footer": {
+    "kicker": "Yihonal Trading Plc",
+    "title": "산지가 증명하는 에티오피아 스페셜티 커피, 세계를 잇다.",
+    "desc": "아디스아바바 및 시다마에 기반을 두고 스페셜티 커피 소싱, 가공, 품질 관리 및 수출 전 과정을 직접 수행합니다.",
+    "coffee": "커피 셀렉션",
+    "company": "회사 소개",
+    "contact": "문의하기",
+    "ethiopianCoffee": "에티오피아 커피",
+    "sidamaCoffee": "시다마 커피",
+    "coffeeProcessing": "커피 가공 방식",
+    "qualityTraceability": "품질 및 이력 추적",
+    "exportServices": "수출 지원 서비스",
+    "about": "회사 소개",
+    "sites": "산지 농장",
+    "gallery": "갤러리",
+    "address": "에티오피아 아디스아바바 볼레",
+    "rights": "All rights reserved.",
+    "tagline": "에티오피아 스페셜티 커피 공급 및 수출 전문기업"
+  },
+  "geoBanner": {
+    "detectedNotice": "방문 국가({country})가 감지되었습니다. 언어가 {lang}(으)로 자동 설정되었습니다.",
+    "switchPrompt": "영어로 전환",
+    "stay": "{lang} 유지"
+  }
+}
+

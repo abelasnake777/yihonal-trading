@@ -1,0 +1,204 @@
+{
+  "common": {
+    "brandName": "Yihonal Coffee",
+    "companyName": "Yihonal Trading Plc",
+    "tagline": "Traceable Ethiopian coffee, connected to the world.",
+    "subTagline": "Ethiopian specialty coffee supplier and exporter",
+    "contactUs": "Contact Us",
+    "exploreSites": "Explore Sites",
+    "viewProducts": "View Products",
+    "learnMore": "Learn More",
+    "backToHome": "Back to Home",
+    "skipToContent": "Skip to content",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "origin": "Origin · Ethiopia",
+    "rightsReserved": "All rights reserved."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "awards": "Awards",
+    "sites": "Sites",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "selectLanguage": "Select language",
+    "autoDetect": "Auto-detect location",
+    "detectedFrom": "Detected from"
+  },
+  "hero": {
+    "title": "Yihonal Coffee",
+    "tagline": "Handpicked in Ethiopia, Roasted with Care",
+    "exporterTitle": "Ethiopian Specialty Coffee Exporter",
+    "exporterDesc": "Supplying traceable specialty coffee from high-elevation Sidama sites, with sourcing, processing, quality control, and export support for international buyers.",
+    "scrollDown": "Scroll down"
+  },
+  "highlights": {
+    "origin": "Direct from Origin",
+    "originDesc": "Grown in Ethiopia's renowned high-altitude terroirs.",
+    "traceability": "Full Traceability",
+    "traceabilityDesc": "Documented lot tracking from harvest to shipping.",
+    "processing": "Diverse Processing",
+    "processingDesc": "Washed, Natural, Honey, Anaerobic, and Experimental lots.",
+    "export": "Global Export",
+    "exportDesc": "Seamless international logistics and buyer coordination."
+  },
+  "products": {
+    "kicker": "Our Specialty Offerings",
+    "title": "Distinctive Ethiopian Coffee Lots",
+    "intro": "Prepared for roasters, importers, and specialty coffee partners worldwide.",
+    "clickForDetails": "Click for details",
+    "notesLabel": "Notes",
+    "dialogTitle": "Product Overview",
+    "washed": {
+      "name": "Washed",
+      "notes": "Floral, Citrus, Bright",
+      "desc": "Clean washed lots prepared for roasters who need clarity and consistent cup structure.",
+      "details": "Washed coffee is selected for clean acidity, clear floral notes, and reliable structure. It is ideal for buyers who want a bright Ethiopian cup that performs well in filter roasting."
+    },
+    "natural": {
+      "name": "Natural",
+      "notes": "Smooth, Sweet, Balanced",
+      "desc": "Sun-dried naturals with a round body, berry sweetness, and a classic Yirgacheffe profile.",
+      "details": "Natural coffee is dried carefully to build sweetness and fruit character. This lot style works well for roasters looking for a memorable cup with body and aroma."
+    },
+    "honey": {
+      "name": "Honey",
+      "notes": "Fruity, Rich Body",
+      "desc": "Carefully processed honey coffee with fruit-forward sweetness and a polished finish.",
+      "details": "Honey processing keeps selected mucilage during drying, creating a cup that balances fruit, sweetness, and a rounded mouthfeel."
+    },
+    "anaerobic": {
+      "name": "Anaerobic",
+      "notes": "Fruit-forward, Vibrant, Complex",
+      "desc": "Carefully fermented anaerobic coffee with expressive fruit, layered sweetness, and a vibrant finish.",
+      "details": "Anaerobic coffee is fermented in sealed, oxygen-limited tanks to develop intense fruit character, layered sweetness, and a distinctive aromatic cup."
+    },
+    "experimental": {
+      "name": "Experimental",
+      "notes": "Innovative, Limited, Distinctive",
+      "desc": "A limited experimental coffee prepared for interested buyers.",
+      "details": "This information is only provided for buyers!"
+    }
+  },
+  "awards": {
+    "kicker": "Recognition & Awards",
+    "title": "Recognized for Quality at Origin",
+    "featuredTitle": "Taste of Harvest 2025",
+    "featuredResult": "3rd Place · Honey Processed Arabica",
+    "featuredDesc": "Yihonal Trading was awarded third place at the 2025 Taste of Harvest Africa Finals.",
+    "viewCertificate": "View Certificate",
+    "galleryTitle": "Award Certificates",
+    "dialogTitle": "Award Viewer"
+  },
+  "sites": {
+    "kicker": "Our coffee origins",
+    "title": "Meet the places behind the coffee.",
+    "subtitle": "Explore four Ethiopian sites through their elevation and visual archive. Select a site below to discover its profile.",
+    "elevationRange": "elevation range",
+    "exploreLink": "Explore the sites",
+    "chooseOrigin": "Choose an origin",
+    "fourSites": "Four sites, four elevations.",
+    "fourSitesDesc": "Each profile brings together its elevation, character, and dedicated visual archive from origin.",
+    "altitudeBadge": "Altitude",
+    "metresAsl": "metres a.s.l.",
+    "elevationProfile": "Elevation profile",
+    "aboveSeaLevel": "metres above sea level.",
+    "highElevation": "High-elevation specialty coffee from",
+    "region": "Region",
+    "localArea": "Local area",
+    "variety": "Variety",
+    "processingSystem": "Processing system",
+    "archiveNote": "Each gallery is drawn from its dedicated site archive, keeping every origin's photographs together.",
+    "siteNumber": "Site",
+    "originArchive": "Origin archive"
+  },
+  "gallery": {
+    "kicker": "Field notes · Ethiopia",
+    "title": "Stories from origin.",
+    "subtitle": "Real life, unfiltered glimpses of where your coffee is born—from highland farms and drying beds to the people and craft behind every lot.",
+    "moments": "moments",
+    "livingArchive": "One living archive",
+    "archiveKicker": "The visual archive",
+    "archiveTitle": "Coffee, community, and craft.",
+    "archiveSubtitle": "Every frame is part of the story. Select an image to explore it in full.",
+    "moreMoments": "More moments are always being added",
+    "dialogTitle": "Gallery image viewer"
+  },
+  "about": {
+    "heroTitle": "Yihonal Coffee",
+    "heroTagline": "Handpicked in Ethiopia, Roasted with Care",
+    "journeyKicker": "Our journey",
+    "journeyTitle": "Rooted at origin, committed to quality.",
+    "step1Label": "The land",
+    "step1Title": "Rooted at origin",
+    "step1Desc": "Our local knowledge begins in Ethiopia's renowned coffee-growing communities, where altitude, soil, and careful cultivation shape every lot.",
+    "step2Label": "The relationship",
+    "step2Title": "Traceable sourcing",
+    "step2Desc": "We collaborate with farmers, processors, and trusted partners to build transparent, dependable supply chains.",
+    "step3Label": "The craft",
+    "step3Title": "Careful processing",
+    "step3Desc": "Washed and natural coffees are prepared with close attention to sorting, drying, consistency, and each coffee's character.",
+    "step4Label": "The promise",
+    "step4Title": "Quality to export",
+    "step4Desc": "Quality control continues through preparation, packaging, and shipment so every coffee arrives ready for the global market.",
+    "valuesKicker": "Guiding principles",
+    "valuesTitle": "Our values",
+    "value1Title": "Honest business",
+    "value1Desc": "Fair, responsible, and transparent practices at every stage.",
+    "value2Title": "Customer focus",
+    "value2Desc": "Friendly, professional service shaped around each client's needs.",
+    "value3Title": "Consistent quality",
+    "value3Desc": "Careful work designed to meet or exceed customer expectations.",
+    "value4Title": "Shared progress",
+    "value4Desc": "Supporting Ethiopia, its people, and its coffee communities."
+  },
+  "contact": {
+    "kicker": "Contact Yihonal Trading Plc",
+    "title": "Start a conversation about Ethiopian specialty coffee.",
+    "subtitle": "International buyers, roasters, cafés, and coffee partners can contact Yihonal directly for product information and sourcing requirements.",
+    "companyContact": "Company contact",
+    "locationLabel": "Location",
+    "locationValue": "Addis Ababa, Bole, Ethiopia",
+    "phoneLabel": "Phone / WhatsApp",
+    "emailLabel": "Email",
+    "instagramLabel": "Instagram",
+    "messageWhatsApp": "Message Yihonal on WhatsApp",
+    "mapTitle": "Yihonal Trading location in Addis Ababa, Bole"
+  },
+  "resource": {
+    "buyerKicker": "For international coffee buyers",
+    "buyerTitle": "Request coffee information or start a sourcing conversation.",
+    "contactCta": "Contact Yihonal Trading",
+    "exploreProcessing": "Explore Yihonal's coffee processing"
+  },
+  "footer": {
+    "kicker": "Yihonal Trading Plc",
+    "title": "Traceable Ethiopian coffee, connected to the world.",
+    "desc": "Specialty coffee sourcing, processing, quality control, and export support from Addis Ababa and Sidama, Ethiopia.",
+    "coffee": "Coffee",
+    "company": "Company",
+    "contact": "Contact",
+    "ethiopianCoffee": "Ethiopian Coffee",
+    "sidamaCoffee": "Sidama Coffee",
+    "coffeeProcessing": "Coffee Processing",
+    "qualityTraceability": "Quality & Traceability",
+    "exportServices": "Export Services",
+    "about": "About",
+    "sites": "Coffee Sites",
+    "gallery": "Gallery",
+    "address": "Addis Ababa, Bole, Ethiopia",
+    "rights": "All rights reserved.",
+    "tagline": "Ethiopian specialty coffee supplier and exporter"
+  },
+  "geoBanner": {
+    "detectedNotice": "We noticed you are visiting from {country}. Language set to {lang}.",
+    "switchPrompt": "Switch to English",
+    "stay": "Keep {lang}"
+  }
+}
+

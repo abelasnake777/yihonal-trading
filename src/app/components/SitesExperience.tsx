@@ -3,12 +3,14 @@
 import Image from "@/app/components/OptimizedImage";
 import { type CSSProperties, useState } from "react";
 import { sites } from "@/app/data/site";
+import { useTranslation } from "@/i18n/I18nContext";
 
 type AltitudeStyle = CSSProperties & {
   "--site-altitude-position": string;
 };
 
 export default function SitesExperience() {
+  const { t } = useTranslation();
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const selectedSite = sites[selectedIndex];
@@ -51,11 +53,13 @@ export default function SitesExperience() {
         </svg>
 
         <div className="sites-hero-inner">
-          <p className="sites-kicker">Our coffee origins</p>
-          <h1>Meet the places behind the coffee.</h1>
+          <p className="sites-kicker">{t("sites.kicker", "Our coffee origins")}</p>
+          <h1>{t("sites.title", "Meet the places behind the coffee.")}</h1>
           <p>
-            Explore four Ethiopian sites through their elevation and visual archive. Select a
-            site below to discover its profile.
+            {t(
+              "sites.subtitle",
+              "Explore four Ethiopian sites through their elevation and visual archive. Select a site below to discover its profile."
+            )}
           </p>
           <div className="sites-hero-range">
             <svg viewBox="0 0 46 32" aria-hidden="true">
@@ -63,17 +67,17 @@ export default function SitesExperience() {
             </svg>
             <span>
               <strong>{minimumAltitude.toLocaleString()}–{maximumAltitude.toLocaleString()} m</strong>
-              elevation range
+              {" "}{t("sites.elevationRange", "elevation range")}
             </span>
           </div>
           <a href="#site-explorer" className="sites-scroll-link">
-            Explore the sites <span aria-hidden="true">&#8595;</span>
+            {t("sites.exploreLink", "Explore the sites")} <span aria-hidden="true">&#8595;</span>
           </a>
         </div>
 
         <div className="sites-hero-coordinate" aria-hidden="true">
           <span />
-          <p>Origin · Ethiopia</p>
+          <p>{t("common.origin", "Origin · Ethiopia")}</p>
         </div>
       </section>
 
@@ -83,12 +87,14 @@ export default function SitesExperience() {
 
         <div className="sites-explorer-heading">
           <div>
-            <p className="sites-kicker">Choose an origin</p>
-            <h2 id="sites-title">Four sites, four elevations.</h2>
+            <p className="sites-kicker">{t("sites.chooseOrigin", "Choose an origin")}</p>
+            <h2 id="sites-title">{t("sites.fourSites", "Four sites, four elevations.")}</h2>
           </div>
           <p>
-            Each profile brings together its elevation, character, and dedicated visual archive
-            from origin.
+            {t(
+              "sites.fourSitesDesc",
+              "Each profile brings together its elevation, character, and dedicated visual archive from origin."
+            )}
           </p>
         </div>
 
@@ -129,14 +135,14 @@ export default function SitesExperience() {
             <div className="site-detail-header">
               <div>
                 <p className="sites-kicker">
-                  Site {String(selectedIndex + 1).padStart(2, "0")}
+                  {t("sites.siteNumber", "Site")} {String(selectedIndex + 1).padStart(2, "0")}
                 </p>
                 <h3>{selectedSite.name}</h3>
               </div>
               <div className="site-altitude-badge">
-                <span>Altitude</span>
+                <span>{t("sites.altitudeBadge", "Altitude")}</span>
                 <strong>{selectedSite.altitudeRange}</strong>
-                <small>metres a.s.l.</small>
+                <small>{t("sites.metresAsl", "metres a.s.l.")}</small>
               </div>
             </div>
 
@@ -155,7 +161,7 @@ export default function SitesExperience() {
                     sizes="(max-width: 768px) 94vw, (max-width: 1100px) 68vw, 48vw"
                   />
                   <div className="site-photo-overlay" />
-                  <span className="site-photo-status">Origin archive</span>
+                  <span className="site-photo-status">{t("sites.originArchive", "Origin archive")}</span>
                   <span className="site-photo-count">
                     {String(activeImageIndex + 1).padStart(2, "0")} /{" "}
                     {String(selectedSite.images.length).padStart(2, "0")}
@@ -209,30 +215,30 @@ export default function SitesExperience() {
                   </div>
 
                   <div className="site-elevation-copy">
-                    <p className="sites-kicker sites-kicker-light">Elevation profile</p>
-                    <h4>{selectedSite.altitudeRange} metres above sea level.</h4>
+                    <p className="sites-kicker sites-kicker-light">{t("sites.elevationProfile", "Elevation profile")}</p>
+                    <h4>{selectedSite.altitudeRange} {t("sites.aboveSeaLevel", "metres above sea level.")}</h4>
                     <p>
-                      High-elevation specialty coffee from {selectedSite.localArea},{" "}
-                      {selectedSite.region}.
+                      {t("sites.highElevation", "High-elevation specialty coffee from")}{" "}
+                      {selectedSite.localArea}, {selectedSite.region}.
                     </p>
                   </div>
                 </div>
 
                 <dl className="site-minor-info">
                   <div>
-                    <dt>Region</dt>
+                    <dt>{t("sites.region", "Region")}</dt>
                     <dd>{selectedSite.region}</dd>
                   </div>
                   <div>
-                    <dt>Local area</dt>
+                    <dt>{t("sites.localArea", "Local area")}</dt>
                     <dd>{selectedSite.localArea}</dd>
                   </div>
                   <div>
-                    <dt>Variety</dt>
+                    <dt>{t("sites.variety", "Variety")}</dt>
                     <dd>{selectedSite.variety}</dd>
                   </div>
                   <div>
-                    <dt>Processing system</dt>
+                    <dt>{t("sites.processingSystem", "Processing system")}</dt>
                     <dd>{selectedSite.processingSystem}</dd>
                   </div>
                 </dl>
@@ -244,8 +250,10 @@ export default function SitesExperience() {
         <div className="sites-temporary-note">
           <span aria-hidden="true">&#10022;</span>
           <p>
-            Each gallery is drawn from its dedicated site archive, keeping every origin&apos;s
-            photographs together.
+            {t(
+              "sites.archiveNote",
+              "Each gallery is drawn from its dedicated site archive, keeping every origin's photographs together."
+            )}
           </p>
         </div>
       </section>

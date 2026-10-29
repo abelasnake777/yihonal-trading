@@ -9,6 +9,7 @@ Production website for Yihonal Trading Plc, an Ethiopian specialty coffee suppli
 - Plain responsive CSS
 - Sharp for build-time responsive AVIF and WebP images and gallery metadata
 - Static hosting through Yegara DirectAdmin/LiteSpeed
+- 12-language localization (i18n) with automatic GeoIP routing and manual override
 
 ## Development
 
@@ -18,6 +19,54 @@ npm run dev
 ```
 
 Open `http://localhost:3000`.
+
+## Multi-Language (i18n) & GeoIP Localization
+
+The site supports 12 languages with automatic first-visit GeoIP location detection and full manual override:
+
+1. **Amharic (`am`)** — አማርኛ (Ethiopia: `ET`)
+2. **Chinese - Simplified (`zh`)** — 简体中文 (China: `CN`, `HK`, `TW`)
+3. **Japanese (`ja`)** — 日本語 (Japan: `JP`)
+4. **Korean (`ko`)** — 한국어 (South Korea: `KR`)
+5. **French (`fr`)** — Français (France: `FR`, `MC`)
+6. **German (`de`)** — Deutsch (Germany: `DE`, `AT`)
+7. **Spanish (`es`)** — Español (Spain: `ES`, `MX`, `AR`, etc.)
+8. **Arabic (`ar`)** — العربية with full RTL layout support (Saudi Arabia: `SA`, UAE: `AE`, `EG`, etc.)
+9. **Dutch (`nl`)** — Nederlands (Netherlands: `NL`)
+10. **Italian (`it`)** — Italiano (Italy: `IT`)
+11. **Portuguese (`pt`)** — Português (Brazil: `BR`, Portugal: `PT`, etc.)
+12. **English (`en`)** — English (Default fallback for all other regions)
+
+### GeoIP Detection and Persistence Flow
+- On first visit without stored preferences, the visitor's location is detected via GeoIP (`CF-IPCountry`, reverse proxy headers, or client GeoIP lookup).
+- The detected country code is mapped to the designated regional language.
+- When an explicit selection is made via the Language Switcher widget in the navigation header, the user's preference is permanently stored in `localStorage` and the `yihonal_lang` cookie, overriding GeoIP.
+- Dynamic `dir="rtl"` layout switching is automatically applied for Arabic.
+
+### Local Testing & VPN Verification
+You can test the localization behavior in two ways on Ubuntu:
+
+#### 1. Live VPN Testing
+Connect your VPN client (e.g. WireGuard, OpenVPN, ProtonVPN, NordVPN) to a target server (e.g. Tokyo, Japan). Then run:
+```bash
+npm run test:geoip
+```
+The script will display your external VPN IP, detected country, and mapped language. Opening `http://localhost:3000` (in a private window or after clearing cookies) will immediately render the site in the VPN country's language.
+
+#### 2. Query Parameter Override (Instant local mock)
+Append `?geo_mock=<CountryCode>` to simulate any country instantly without a VPN:
+- Japan (`ja`): `http://localhost:3000/?geo_mock=JP`
+- South Korea (`ko`): `http://localhost:3000/?geo_mock=KR`
+- China (`zh`): `http://localhost:3000/?geo_mock=CN`
+- Ethiopia (`am`): `http://localhost:3000/?geo_mock=ET`
+- France (`fr`): `http://localhost:3000/?geo_mock=FR`
+- Germany (`de`): `http://localhost:3000/?geo_mock=DE`
+- Spain (`es`): `http://localhost:3000/?geo_mock=ES`
+- Saudi Arabia (`ar` RTL): `http://localhost:3000/?geo_mock=SA`
+- Netherlands (`nl`): `http://localhost:3000/?geo_mock=NL`
+- Italy (`it`): `http://localhost:3000/?geo_mock=IT`
+- Brazil (`pt`): `http://localhost:3000/?geo_mock=BR`
+- Default English (`en`): `http://localhost:3000/?geo_mock=US`
 
 ## Production checks and build
 

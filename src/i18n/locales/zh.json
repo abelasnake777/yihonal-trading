@@ -1,0 +1,204 @@
+{
+  "common": {
+    "brandName": "Yihonal 咖啡",
+    "companyName": "Yihonal 贸易有限公司",
+    "tagline": "源自埃塞俄比亚的可追溯精品咖啡，连接世界。",
+    "subTagline": "埃塞俄比亚精品咖啡供应商与出口商",
+    "contactUs": "联系我们",
+    "exploreSites": "探索咖啡产地",
+    "viewProducts": "查看产品",
+    "learnMore": "了解更多",
+    "backToHome": "返回首页",
+    "skipToContent": "跳转到主要内容",
+    "close": "关闭",
+    "previous": "上一页",
+    "next": "下一页",
+    "origin": "产地 · 埃塞俄比亚",
+    "rightsReserved": "版权所有。"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品系列",
+    "awards": "荣誉奖项",
+    "sites": "产地站点",
+    "gallery": "图库画廊",
+    "contact": "联系我们",
+    "openMenu": "打开导航菜单",
+    "closeMenu": "关闭导航菜单",
+    "selectLanguage": "选择语言",
+    "autoDetect": "自动定位检测",
+    "detectedFrom": "检测自"
+  },
+  "hero": {
+    "title": "Yihonal 咖啡",
+    "tagline": "埃塞俄比亚手工采摘，精心烘焙",
+    "exporterTitle": "埃塞俄比亚精品咖啡出口商",
+    "exporterDesc": "从高海拔西达摩产区向全球买家提供可追溯的精品咖啡生豆，涵盖采购、精细加工、严格品控与国际出口服务。",
+    "scrollDown": "向下滚动"
+  },
+  "highlights": {
+    "origin": "源头直采",
+    "originDesc": "生长于埃塞俄比亚著名的高海拔优质微气候产区。",
+    "traceability": "全程可追溯",
+    "traceabilityDesc": "从鲜果采摘到装船出口，完整记录每批次信息。",
+    "processing": "多样化处理工艺",
+    "processingDesc": "涵盖水洗、日晒、蜜处理、厌氧发酵及实验批次。",
+    "export": "全球出口保障",
+    "exportDesc": "专业的国际物流协调与买家订单全方位跟进。"
+  },
+  "products": {
+    "kicker": "精品咖啡系列",
+    "title": "风味独特的埃塞俄比亚咖啡批次",
+    "intro": "专为全球烘焙商、生豆进口商和精品咖啡品牌量身打造。",
+    "clickForDetails": "点击查看详情",
+    "notesLabel": "风味特征",
+    "dialogTitle": "产品概览",
+    "washed": {
+      "name": "水洗处理 (Washed)",
+      "notes": "花香、明亮柑橘、干净透亮",
+      "desc": "干净的水洗批次，适合追求明晰杯测感与稳定结构的烘焙商。",
+      "details": "水洗咖啡精选纯净酸质、清晰花香与稳定杯测结构，是手冲与滴滤咖啡爱好者的理想之选。"
+    },
+    "natural": {
+      "name": "日晒处理 (Natural)",
+      "notes": "醇厚圆润、甜感突出、浆果风味",
+      "desc": "阳光日晒批次，具有饱满醇厚度与浓郁莓果甜感，经典埃塞俄比亚风味。",
+      "details": "日晒咖啡在全果状态下慢速干燥，充分积累天然果糖，赋予咖啡浓厚体脂感与迷人香气。"
+    },
+    "honey": {
+      "name": "蜜处理 (Honey)",
+      "notes": "热带水果、丰满体脂感、柔和甘甜",
+      "desc": "保留部分果胶干燥，在果酸、甜感与醇厚度之间达到完美平衡。",
+      "details": "蜜处理工艺在干燥时保留精选果胶层，带来热带水果风味与圆润丝滑的尾韵。"
+    },
+    "anaerobic": {
+      "name": "厌氧发酵 (Anaerobic)",
+      "notes": "饱满果香、层次丰富、明亮活泼",
+      "desc": "在密闭隔氧罐中精心发酵，展现强烈的果香张力与深层甜感。",
+      "details": "厌氧发酵在隔氧环境下精准控制温湿度，激发特有的香气分子，呈现复杂而富有表现力的风味。"
+    },
+    "experimental": {
+      "name": "实验批次 (Experimental)",
+      "notes": "创新探索、限量发售、独特非凡",
+      "desc": "为有特殊采购需求的买家研发的限量实验处理批次。",
+      "details": "仅向认证买家提供详细信息及样品申请！"
+    }
+  },
+  "awards": {
+    "kicker": "荣誉与认可",
+    "title": "源头品质的国际嘉奖",
+    "featuredTitle": "2025 非洲丰收之味 (Taste of Harvest)",
+    "featuredResult": "季军 · 蜜处理阿拉比卡咖啡",
+    "featuredDesc": "Yihonal 贸易在 2025 年非洲 Taste of Harvest 决赛中荣获季军殊荣。",
+    "viewCertificate": "查看获奖证书",
+    "galleryTitle": "荣誉证书",
+    "dialogTitle": "奖项查看器"
+  },
+  "sites": {
+    "kicker": "我们的咖啡产区",
+    "title": "走进咖啡生长的源头之地。",
+    "subtitle": "通过海拔分布与纪实影像探索埃塞俄比亚四大产地。在下方选择产区以了解详细风貌。",
+    "elevationRange": "海拔跨度",
+    "exploreLink": "探索各产区",
+    "chooseOrigin": "选择产地",
+    "fourSites": "四大产地，四种海拔高度。",
+    "fourSitesDesc": "每个产地档案汇聚了独特海拔、生态特性与第一手实地影像。",
+    "altitudeBadge": "海拔高度",
+    "metresAsl": "米（海平面以上）",
+    "elevationProfile": "海拔概况",
+    "aboveSeaLevel": "米海平面以上。",
+    "highElevation": "高海拔精品咖啡来自",
+    "region": "大区",
+    "localArea": "微产区",
+    "variety": "原生品种",
+    "processingSystem": "处理系统",
+    "archiveNote": "每个图库均来自对应产地的实景档案，记录完整的原产地故事。",
+    "siteNumber": "站点",
+    "originArchive": "产地纪实"
+  },
+  "gallery": {
+    "kicker": "原产地手记 · 埃塞俄比亚",
+    "title": "源头的故事。",
+    "subtitle": "真实无修饰的影像记录——从高山庄园、晾晒床到每批咖啡背后的咖农与匠人匠心。",
+    "moments": "精彩瞬间",
+    "livingArchive": "活态纪实档案",
+    "archiveKicker": "影像图库",
+    "archiveTitle": "咖啡、社区与匠心。",
+    "archiveSubtitle": "每一帧都是故事的一部分。点击即可全屏查看高清图像。",
+    "moreMoments": "持续更新中",
+    "dialogTitle": "图库画廊查看器"
+  },
+  "about": {
+    "heroTitle": "Yihonal 咖啡",
+    "heroTagline": "埃塞俄比亚手工采摘，精心烘焙",
+    "journeyKicker": "我们的历程",
+    "journeyTitle": "扎根原产地，专注卓越品质。",
+    "step1Label": "土地之馈",
+    "step1Title": "植根源头",
+    "step1Desc": "我们深耕埃塞俄比亚著名的咖啡高地，海拔、土壤与悉心培育共同塑造了每一粒生豆的非凡风味。",
+    "step2Label": "伙伴关系",
+    "step2Title": "可追溯采购",
+    "step2Desc": "我们与种植农户、加工站紧密合作，建立透明、稳固且可持续的供应链体系。",
+    "step3Label": "精湛工艺",
+    "step3Title": "精细处理",
+    "step3Desc": "严格把控鲜果筛选、分级、干燥与储存环节，保留每款咖啡的天然风味本色。",
+    "step4Label": "品质承诺",
+    "step4Title": "从产地到出口",
+    "step4Desc": "全程严格品控，标准仓储包装与航运协调，确保咖啡以最佳状态送达全球买家手中。",
+    "valuesKicker": "核心准则",
+    "valuesTitle": "企业价值观",
+    "value1Title": "诚信经营",
+    "value1Desc": "在每个环节践行公平、诚信与高度透明的商业合作。",
+    "value2Title": "客户至上",
+    "value2Desc": "根据每位烘焙商与进口商的具体需求，提供定制化专业服务。",
+    "value3Title": "始终如一的品质",
+    "value3Desc": "严谨精细的品控标准，满足并超越全球合作伙伴的高端期望。",
+    "value4Title": "共同发展",
+    "value4Desc": "积极支持埃塞俄比亚当地社区与咖农经济的可持续繁荣。"
+  },
+  "contact": {
+    "kicker": "联系 Yihonal 贸易有限公司",
+    "title": "开启埃塞俄比亚精品咖啡合作对话。",
+    "subtitle": "全球咖啡买家、烘焙商、咖啡馆与贸易伙伴可直接与我们联系，获取产品资料与生豆样品。",
+    "companyContact": "公司联系方式",
+    "locationLabel": "办公地址",
+    "locationValue": "埃塞俄比亚·亚的斯亚贝巴·博莱区",
+    "phoneLabel": "电话 / WhatsApp",
+    "emailLabel": "电子邮件",
+    "instagramLabel": "Instagram",
+    "messageWhatsApp": "通过 WhatsApp 发送消息",
+    "mapTitle": "Yihonal 贸易在亚的斯亚贝巴的地理位置"
+  },
+  "resource": {
+    "buyerKicker": "面向国际咖啡采购商",
+    "buyerTitle": "获取咖啡样品信息或开启采购合作探讨。",
+    "contactCta": "联系 Yihonal 贸易",
+    "exploreProcessing": "了解 Yihonal 咖啡处理工艺"
+  },
+  "footer": {
+    "kicker": "Yihonal 贸易有限公司",
+    "title": "源自埃塞俄比亚的可追溯精品咖啡，连接世界。",
+    "desc": "扎根埃塞俄比亚亚的斯亚贝巴与西达摩产区，提供精品咖啡采购、处理、品控与出口一站式服务。",
+    "coffee": "咖啡产品",
+    "company": "关于公司",
+    "contact": "联系我们",
+    "ethiopianCoffee": "埃塞俄比亚咖啡",
+    "sidamaCoffee": "西达摩咖啡",
+    "coffeeProcessing": "咖啡处理法",
+    "qualityTraceability": "品质与可追溯性",
+    "exportServices": "出口服务",
+    "about": "关于我们",
+    "sites": "咖啡产区",
+    "gallery": "影像图库",
+    "address": "埃塞俄比亚·亚的斯亚贝巴·博莱",
+    "rights": "版权所有。",
+    "tagline": "埃塞俄比亚精品咖啡供应商与出口商"
+  },
+  "geoBanner": {
+    "detectedNotice": "检测到您来自{country}。语言已自动切换为{lang}。",
+    "switchPrompt": "切换到英文",
+    "stay": "保留{lang}"
+  }
+}
+

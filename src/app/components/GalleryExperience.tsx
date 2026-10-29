@@ -8,6 +8,7 @@ import {
   useRef,
   useState,
 } from "react";
+import { useTranslation } from "@/i18n/I18nContext";
 
 export type GalleryImageData = {
   src: string;
@@ -89,6 +90,7 @@ function createRows(images: GalleryImageData[], containerWidth: number): Gallery
 }
 
 export default function GalleryExperience({ images }: GalleryExperienceProps) {
+  const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [mosaicWidth, setMosaicWidth] = useState(1200);
   const mosaicRef = useRef<HTMLDivElement>(null);
@@ -207,15 +209,17 @@ export default function GalleryExperience({ images }: GalleryExperienceProps) {
         <div className="gallery-hero-orbit gallery-orbit-two" aria-hidden="true" />
         <div className="gallery-hero-inner">
           <div className="gallery-hero-copy">
-            <p className="gallery-kicker">Field notes · Ethiopia</p>
-            <h1>Stories from origin.</h1>
+            <p className="gallery-kicker">{t("gallery.kicker", "Field notes · Ethiopia")}</p>
+            <h1>{t("gallery.title", "Stories from origin.")}</h1>
             <p>
-              Real life, unfiltered glimpses of where your coffee is born—from highland farms
-              and drying beds to the people and craft behind every lot.
+              {t(
+                "gallery.subtitle",
+                "Real life, unfiltered glimpses of where your coffee is born—from highland farms and drying beds to the people and craft behind every lot."
+              )}
             </p>
             <div className="gallery-hero-meta">
-              <span><strong>{images.length}</strong> moments</span>
-              <span>One living archive</span>
+              <span><strong>{images.length}</strong> {t("gallery.moments", "moments")}</span>
+              <span>{t("gallery.livingArchive", "One living archive")}</span>
             </div>
           </div>
 
@@ -247,11 +251,14 @@ export default function GalleryExperience({ images }: GalleryExperienceProps) {
       <section className="gallery-archive" aria-labelledby="gallery-archive-title">
         <div className="gallery-archive-heading">
           <div>
-            <p className="gallery-kicker">The visual archive</p>
-            <h2 id="gallery-archive-title">Coffee, community, and craft.</h2>
+            <p className="gallery-kicker">{t("gallery.archiveKicker", "The visual archive")}</p>
+            <h2 id="gallery-archive-title">{t("gallery.archiveTitle", "Coffee, community, and craft.")}</h2>
           </div>
           <p>
-            Every frame is part of the story. Select an image to explore it in full.
+            {t(
+              "gallery.archiveSubtitle",
+              "Every frame is part of the story. Select an image to explore it in full."
+            )}
           </p>
         </div>
 
@@ -299,7 +306,7 @@ export default function GalleryExperience({ images }: GalleryExperienceProps) {
 
         <div className="gallery-archive-end">
           <span aria-hidden="true" />
-          <p>More moments are always being added</p>
+          <p>{t("gallery.moreMoments", "More moments are always being added")}</p>
           <span aria-hidden="true" />
         </div>
       </section>

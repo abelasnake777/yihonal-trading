@@ -9,6 +9,7 @@
     "predev": "node scripts/optimize-images.mjs",
     "prebuild": "node scripts/optimize-images.mjs",
     "check:export": "node scripts/check-export.mjs",
+    "test:geoip": "node scripts/test-geoip.mjs",
     "release": "npm run lint && npm run build && npm run check:export && node scripts/package-release.mjs"
   },
   "dependencies": {

@@ -1,0 +1,204 @@
+{
+  "common": {
+    "brandName": "イホナルコーヒー",
+    "companyName": "Yihonal Trading Plc",
+    "tagline": "産地が見えるエチオピアスペシャルティコーヒーを、世界へ。",
+    "subTagline": "エチオピア・スペシャルティコーヒー供給・輸出業者",
+    "contactUs": "お問い合わせ",
+    "exploreSites": "生産拠点を見る",
+    "viewProducts": "商品ラインナップ",
+    "learnMore": "詳細を見る",
+    "backToHome": "ホームに戻る",
+    "skipToContent": "メインコンテンツへスキップ",
+    "close": "閉じる",
+    "previous": "前へ",
+    "next": "次へ",
+    "origin": "原産地 · エチオピア",
+    "rightsReserved": "All rights reserved."
+  },
+  "nav": {
+    "home": "ホーム",
+    "about": "企業情報",
+    "products": "取扱コーヒー",
+    "awards": "受賞歴",
+    "sites": "産地サイト",
+    "gallery": "ギャラリー",
+    "contact": "お問い合わせ",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "selectLanguage": "言語を選択",
+    "autoDetect": "位置情報から自動検出",
+    "detectedFrom": "検出地域"
+  },
+  "hero": {
+    "title": "イホナルコーヒー",
+    "tagline": "エチオピアで手摘みされ、大切に育まれた一杯",
+    "exporterTitle": "エチオピア スペシャルティコーヒー輸出業者",
+    "exporterDesc": "シダマの高標高産地から、調達・精製・品質管理・国際輸出まで一貫したトレーサブルなスペシャルティコーヒーを生豆バイヤーへお届けします。",
+    "scrollDown": "スクロール"
+  },
+  "highlights": {
+    "origin": "産地からの直接調達",
+    "originDesc": "エチオピア屈指の高標高テロワールで栽培された最高峰ロット。",
+    "traceability": "完全なトレーサビリティ",
+    "traceabilityDesc": "収穫から輸出まで、すべての精製プロセスを記録・管理。",
+    "processing": "多彩な精製プロセス",
+    "processingDesc": "ウォッシュド、ナチュラル、ハニー、アナエロビック、実験ロットを展開。",
+    "export": "信頼のグローバル輸出",
+    "exportDesc": "国際輸送手配から検品、スムーズなバイヤー対応まで徹底サポート。"
+  },
+  "products": {
+    "kicker": "スペシャルティロット",
+    "title": "個性あふれるエチオピア産コーヒー",
+    "intro": "世界各国のロースター、インポーター、スペシャルティコーヒーショップのために厳選。",
+    "clickForDetails": "クリックして詳細を表示",
+    "notesLabel": "フレーバーノート",
+    "dialogTitle": "製品概要",
+    "washed": {
+      "name": "ウォッシュド (Washed)",
+      "notes": "フローラル、シトラス、クリアな酸味",
+      "desc": "クリーンなカップと洗練された輪郭を求めるロースターに最適な水洗精製ロット。",
+      "details": "丁寧な発酵と乾燥により、澄み渡る酸味と華やかな花のような香りを引き出しました。フィルタードリップに最適です。"
+    },
+    "natural": {
+      "name": "ナチュラル (Natural)",
+      "notes": "まろやか、ベリーの甘み、バランス",
+      "desc": "果肉のまま天日乾燥。豊かなボディと甘いベリーの香気が際立つエチオピアの王道プロファイル。",
+      "details": "アフリカンベッドで丁寧に天日乾燥され、凝縮された甘みと丸みを帯びたボディを生み出します。"
+    },
+    "honey": {
+      "name": "ハニープロセス (Honey)",
+      "notes": "フルーティー、リッチなボディ、芳醇",
+      "desc": "ミューシレージを残して乾燥。果実味と上品な甘さ、豊かな口当たりの調和。",
+      "details": "果肉の一部を残して乾燥させることで、フルーティーな甘みとシルキーなマウスフィールを両立させています。"
+    },
+    "anaerobic": {
+      "name": "アナエロビック（嫌気性発酵）",
+      "notes": "ジューシー、華やか、複雑なアロマ",
+      "desc": "密閉タンクで無酸素発酵。濃厚なフルーツ感と多層的な甘みが広がる個性的な一杯。",
+      "details": "密閉タンクで温度と圧力を管理しながら嫌気発酵を行い、際立つ芳香と重層的な甘みを引き出しました。"
+    },
+    "experimental": {
+      "name": "エクスペリメンタル (Experimental)",
+      "notes": "革新的、数量限定、独創的",
+      "desc": "最新の実験的精製プロセスによって生まれた数量限定の希少ロット。",
+      "details": "本ロットの詳細は、ご購入希望のバイヤー様にのみ個別にご案内しております。"
+    }
+  },
+  "awards": {
+    "kicker": "受賞と評価",
+    "title": "産地で認められた確かな品質",
+    "featuredTitle": "テイスト・オブ・ハーベスト 2025 (Taste of Harvest)",
+    "featuredResult": "第3位 · ハニープロセス アラビカ部門",
+    "featuredDesc": "Yihonal Trading は、2025年アフリカ大会 Taste of Harvest Finals にて第3位を受賞しました。",
+    "viewCertificate": "受賞証書を見る",
+    "galleryTitle": "受賞証書",
+    "dialogTitle": "賞状ビューア"
+  },
+  "sites": {
+    "kicker": "コーヒー生産拠点",
+    "title": "コーヒーが育まれる大地へ。",
+    "subtitle": "エチオピア屈指の4つの拠点を標高と写真アーカイブで巡る。クリックして詳細をご覧ください。",
+    "elevationRange": "標高レンジ",
+    "exploreLink": "サイトを探索する",
+    "chooseOrigin": "産地を選択",
+    "fourSites": "4つの拠点、4つの標高。",
+    "fourSitesDesc": "各プロファイルには、標高、独自のテロワール、そして現地で撮影された記録写真が集約されています。",
+    "altitudeBadge": "標高",
+    "metresAsl": "m（海抜）",
+    "elevationProfile": "標高プロファイル",
+    "aboveSeaLevel": "m 海抜以上。",
+    "highElevation": "高地栽培の極上スペシャルティコーヒー：",
+    "region": "地域",
+    "localArea": "地区",
+    "variety": "品種",
+    "processingSystem": "精製方式",
+    "archiveNote": "各ギャラリーは、現地の生産拠点ごとに撮影された写真で構成されています。",
+    "siteNumber": "拠点",
+    "originArchive": "産地アーカイブ"
+  },
+  "gallery": {
+    "kicker": "現地フィールドノート · エチオピア",
+    "title": "産地から届くストーリー。",
+    "subtitle": "高地農園、アフリカンベッドでの乾燥作業、そして一杯のコーヒーに情熱を注ぐ人々を捉えたありのままの記録。",
+    "moments": "枚の記録",
+    "livingArchive": "生き生きとした産地アーカイブ",
+    "archiveKicker": "フォトアーカイブ",
+    "archiveTitle": "コーヒー、地域社会、そしてクラフト。",
+    "archiveSubtitle": "すべての写真がひとつの物語を語ります。クリックして全画面でお楽しみください。",
+    "moreMoments": "写真は随時追加されます",
+    "dialogTitle": "ギャラリー画像ビューア"
+  },
+  "about": {
+    "heroTitle": "イホナルコーヒー",
+    "heroTagline": "エチオピアで手摘みされ、大切に育まれた一杯",
+    "journeyKicker": "私たちの歩み",
+    "journeyTitle": "産地に根ざし、最高の品質を追求する。",
+    "step1Label": "大地",
+    "step1Title": "原点に根ざす",
+    "step1Desc": "エチオピア屈指の高地農園から始まり、標高、豊かな土壌、丹念な栽培がすべてのロットに息づいています。",
+    "step2Label": "信頼関係",
+    "step2Title": "顔が見える調達",
+    "step2Desc": "小規模農家や精製所と固い信頼関係を築き、透明で安定したサプライチェーンを守り続けます。",
+    "step3Label": "技術と情熱",
+    "step3Title": "丁寧な精製工程",
+    "step3Desc": "選別、乾燥、水分値管理まで細心の注意を払い、それぞれの豆の持つ個性を最大限に引き出します。",
+    "step4Label": "品質の約束",
+    "step4Title": "輸出まで届ける品質",
+    "step4Desc": "輸出前のグレーディングから梱包、出荷に至るまで厳格な品質管理を行い、最高の状態でお届けします。",
+    "valuesKicker": "私たちの信条",
+    "valuesTitle": "大切にしている価値観",
+    "value1Title": "誠実なビジネス",
+    "value1Desc": "すべてのプロセスにおいて公平で責任ある透明な取引を徹底します。",
+    "value2Title": "お客様第一",
+    "value2Desc": "バイヤー様それぞれのニーズに寄り添い、丁寧でプロフェッショナルな対応を心がけます。",
+    "value3Title": "妥協のない品質",
+    "value3Desc": "お客様の期待を超える確かなクオリティを提供し続けます。",
+    "value4Title": "共に歩む成長",
+    "value4Desc": "エチオピアの地域社会と生産者コミュニティの繁栄に貢献します。"
+  },
+  "contact": {
+    "kicker": "Yihonal Trading Plc へのお問い合わせ",
+    "title": "エチオピア産スペシャルティコーヒーのお取引について。",
+    "subtitle": "世界各国のバイヤー、ロースター、カフェの皆様からの生豆サンプル請求、お見積り、取引のご相談を歓迎いたします。",
+    "companyContact": "会社連絡先",
+    "locationLabel": "所在地",
+    "locationValue": "エチオピア、アディスアベバ、ボレ",
+    "phoneLabel": "電話 / WhatsApp",
+    "emailLabel": "メール",
+    "instagramLabel": "Instagram",
+    "messageWhatsApp": "WhatsApp でメッセージを送る",
+    "mapTitle": "アディスアベバ、ボレの所在地マップ"
+  },
+  "resource": {
+    "buyerKicker": "世界中のコーヒーバイヤーの皆様へ",
+    "buyerTitle": "サンプル請求や調達に関するご相談はこちらから。",
+    "contactCta": "Yihonal Trading に問い合わせる",
+    "exploreProcessing": "当社の精製プロセスを見る"
+  },
+  "footer": {
+    "kicker": "Yihonal Trading Plc",
+    "title": "産地が見えるエチオピアスペシャルティコーヒーを、世界へ。",
+    "desc": "アディスアベバおよびシダマに拠点を置き、高品質なコーヒーの調達、精製、品質管理、輸出を一括サポート。",
+    "coffee": "取扱コーヒー",
+    "company": "会社案内",
+    "contact": "お問い合わせ",
+    "ethiopianCoffee": "エチオピアコーヒー",
+    "sidamaCoffee": "シダマコーヒー",
+    "coffeeProcessing": "精製プロセス",
+    "qualityTraceability": "品質とトレーサビリティ",
+    "exportServices": "輸出サービス",
+    "about": "企業情報",
+    "sites": "生産拠点",
+    "gallery": "ギャラリー",
+    "address": "エチオピア アディスアベバ ボレ",
+    "rights": "All rights reserved.",
+    "tagline": "エチオピア・スペシャルティコーヒー供給・輸出業者"
+  },
+  "geoBanner": {
+    "detectedNotice": "お客様の地域（{country}）を検出しました。言語を {lang} に設定しました。",
+    "switchPrompt": "英語に切り替える",
+    "stay": "{lang} のままにする"
+  }
+}
+

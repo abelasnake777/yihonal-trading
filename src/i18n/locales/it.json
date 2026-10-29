@@ -1,0 +1,204 @@
+{
+  "common": {
+    "brandName": "Caffè Yihonal",
+    "companyName": "Yihonal Trading Plc",
+    "tagline": "Caffè specialty etiope tracciabile, connesso con il mondo.",
+    "subTagline": "Fornitore ed esportatore di specialty coffee dall'Etiopia",
+    "contactUs": "Contattaci",
+    "exploreSites": "Scopri i territori",
+    "viewProducts": "Visualizza prodotti",
+    "learnMore": "Scopri di più",
+    "backToHome": "Torna alla home",
+    "skipToContent": "Salta al contenuto principale",
+    "close": "Chiudi",
+    "previous": "Precedente",
+    "next": "Successivo",
+    "origin": "Origine · Etiopia",
+    "rightsReserved": "Tutti i diritti riservati."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "products": "I nostri caffè",
+    "awards": "Riconoscimenti",
+    "sites": "I territori",
+    "gallery": "Galleria",
+    "contact": "Contatti",
+    "openMenu": "Apri menu di navigazione",
+    "closeMenu": "Chiudi menu di navigazione",
+    "selectLanguage": "Seleziona lingua",
+    "autoDetect": "Rileva posizione automaticamente",
+    "detectedFrom": "Rilevato da"
+  },
+  "hero": {
+    "title": "Caffè Yihonal",
+    "tagline": "Raccolto a mano in Etiopia, tostato con cura",
+    "exporterTitle": "Esportatore di caffè specialty etiope",
+    "exporterDesc": "Fornitura di caffè specialty tracciabili dagli altopiani di Sidama, con approvvigionamento diretto, lavorazione accurata, controllo qualità e supporto alle esportazioni per acquirenti internazionali.",
+    "scrollDown": "Scorri verso il basso"
+  },
+  "highlights": {
+    "origin": "Direttamente dall'origine",
+    "originDesc": "Coltivato nei rinomati terroir ad alta quota dell'Etiopia.",
+    "traceability": "Tracciabilità totale",
+    "traceabilityDesc": "Documentazione meticolosa di ogni lotto dalla raccolta all'imbarco.",
+    "processing": "Diversità di lavorazione",
+    "processingDesc": "Lotti lavati, naturali, honey, fermentazioni anaerobiche e sperimentali.",
+    "export": "Esportazione globale",
+    "exportDesc": "Spedizioni internazionali fluide e assistenza personalizzata per i torrefattori."
+  },
+  "products": {
+    "kicker": "Le nostre selezioni specialty",
+    "title": "Lotti d'eccellenza di caffè etiope",
+    "intro": "Lavorati per torrefattori, importatori e professionisti dello specialty coffee in tutto il mondo.",
+    "clickForDetails": "Clicca per dettagli",
+    "notesLabel": "Note di degustazione",
+    "dialogTitle": "Panoramica prodotto",
+    "washed": {
+      "name": "Lavato (Washed)",
+      "notes": "Floreale, agrumi luminosi, limpido e pulito",
+      "desc": "Lotti lavati con tazza pulita per torrefattori che cercano chiarezza e acidità elegante.",
+      "details": "Scelto per la sua acidità vivace, le spiccate note floreali e il corpo bilanciato. Ideale per estrazioni filtro."
+    },
+    "natural": {
+      "name": "Naturale (Natural)",
+      "notes": "Vellutato, dolce, frutti di bosco, armonico",
+      "desc": "Essiccato al sole in ciliegia intera; corpo rotondo, dolcezza fruttata e il classico profilo d'Etiopia.",
+      "details": "Asciugato lentamente su letti africani sopraelevati per concentrare zuccheri e regalare profumi intensi."
+    },
+    "honey": {
+      "name": "Honey Process",
+      "notes": "Fruttato, corpo denso, dolcezza setosa",
+      "desc": "Essiccato preservando parte della mucillagine per bilanciare acidità fresca e dolcezza.",
+      "details": "Unisce l'aroma floreale a una tessitura corposa e a un piacevole retrogusto persistente."
+    },
+    "anaerobic": {
+      "name": "Fermentazione anaerobica",
+      "notes": "Frutta tropicale, vibrante, complessità aromatica",
+      "desc": "Fermentato in serbatoi privi di ossigeno per sviluppare un profilo aromatico intenso e avvolgente.",
+      "details": "La fermentazione controllata in assenza di ossigeno regala un'esplosione di frutta matura e straordinaria complessità."
+    },
+    "experimental": {
+      "name": "Sperimentale (Experimental)",
+      "notes": "Innovativo, produzione limitata, distintivo",
+      "desc": "Micro-lotti esclusivi sviluppati con metodi di fermentazione all'avanguardia.",
+      "details": "Informazioni e campioni dedicati esclusivamente agli acquirenti registrati!"
+    }
+  },
+  "awards": {
+    "kicker": "Premi & Riconoscimenti",
+    "title": "Qualità premiata nel paese d'origine",
+    "featuredTitle": "Taste of Harvest 2025",
+    "featuredResult": "3° Posto · Arabica Honey Process",
+    "featuredDesc": "Yihonal Trading si è aggiudicata il terzo posto alle finali africane del Taste of Harvest 2025.",
+    "viewCertificate": "Visualizza attestato",
+    "galleryTitle": "Certificati di premio",
+    "dialogTitle": "Visualizzatore attestati"
+  },
+  "sites": {
+    "kicker": "I nostri territori",
+    "title": "Scopri i luoghi che danno vita al caffè.",
+    "subtitle": "Esplora quattro siti etiopi attraverso altimetria e archivi visivi. Seleziona una stazione qui sotto.",
+    "elevationRange": "intervallo altimetrico",
+    "exploreLink": "Esplora i siti",
+    "chooseOrigin": "Scegli l'origine",
+    "fourSites": "Quattro siti, quattro altitudini.",
+    "fourSitesDesc": "Ogni scheda combina altitudine specifica, caratteristiche climatiche e documentazione fotografica dall'origine.",
+    "altitudeBadge": "Altitudine",
+    "metresAsl": "m s.l.m.",
+    "elevationProfile": "Profilo altimetrico",
+    "aboveSeaLevel": "metri sul livello del mare.",
+    "highElevation": "Caffè specialty ad alta quota proveniente da",
+    "region": "Regione",
+    "localArea": "Zona locale",
+    "variety": "Varietà",
+    "processingSystem": "Metodo di lavorazione",
+    "archiveNote": "Ciascuna galleria è tratta dall'archivio fotografico dedicato alla rispettiva stazione.",
+    "siteNumber": "Sito",
+    "originArchive": "Archivio d'origine"
+  },
+  "gallery": {
+    "kicker": "Appunti dal campo · Etiopia",
+    "title": "Storie vissute all'origine.",
+    "subtitle": "Scorci autentici e non filtrati dalle piantagioni d'alta quota, dai letti di essiccazione e dal lavoro delle comunità locali.",
+    "moments": "momenti",
+    "livingArchive": "Un archivio vivo",
+    "archiveKicker": "Archivio fotografico",
+    "archiveTitle": "Caffè, comunità e artigianato.",
+    "archiveSubtitle": "Ogni scatto racconta un capitolo della nostra passione. Clicca sulle immagini per ingrandirle.",
+    "moreMoments": "Nuovi momenti vengono aggiunti regolarmente",
+    "dialogTitle": "Visualizzatore immagini galleria"
+  },
+  "about": {
+    "heroTitle": "Caffè Yihonal",
+    "heroTagline": "Raccolto a mano in Etiopia, tostato con cura",
+    "journeyKicker": "Il nostro cammino",
+    "journeyTitle": "Radicati all'origine, devoti alla qualità.",
+    "step1Label": "La terra",
+    "step1Title": "Radici all'origine",
+    "step1Desc": "La nostra esperienza nasce nei leggendari altopiani d'Etiopia, dove altitudine e terreni fertili plasmano ogni raccolto.",
+    "step2Label": "I rapporti",
+    "step2Title": "Forniture tracciabili",
+    "step2Desc": "Collaboriamo a stretto contatto con agricoltori e stazioni per creare filiere trasparenti, corrette e sostenibili.",
+    "step3Label": "La cura",
+    "step3Title": "Lavorazione meticolosa",
+    "step3Desc": "I lotti lavati e naturali vengono selezionati e monitorati con cura per esaltare l'identità autentica di ogni chicco.",
+    "step4Label": "La promessa",
+    "step4Title": "Qualità per l'export",
+    "step4Desc": "Il controllo qualità continua fino al confezionamento e all'imbarco per garantire massima freschezza all'arrivo.",
+    "valuesKicker": "Principi guida",
+    "valuesTitle": "I nostri valori",
+    "value1Title": "Commercio leale",
+    "value1Desc": "Condotte trasparenti, responsabili ed eque in ogni singola fase.",
+    "value2Title": "Attenzione al cliente",
+    "value2Desc": "Servizio accogliente e professionale, su misura per le esigenze di ogni torrefattore.",
+    "value3Title": "Qualità costante",
+    "value3Desc": "Lavoro rigoroso pensato per soddisfare e superare le aspettative dei professionisti.",
+    "value4Title": "Crescita condivisa",
+    "value4Desc": "Sostegno concreto all'Etiopia, alla sua gente e alle comunità produttrici di caffè."
+  },
+  "contact": {
+    "kicker": "Contatta Yihonal Trading Plc",
+    "title": "Avvia una conversazione sul caffè specialty etiope.",
+    "subtitle": "Importatori internazionali, torrefattori e professionisti possono contattare Yihonal direttamente per campioni e quotazioni.",
+    "companyContact": "Contatto aziendale",
+    "locationLabel": "Sede",
+    "locationValue": "Addis Abeba, Bole, Etiopia",
+    "phoneLabel": "Telefono / WhatsApp",
+    "emailLabel": "Email",
+    "instagramLabel": "Instagram",
+    "messageWhatsApp": "Invia un messaggio a Yihonal su WhatsApp",
+    "mapTitle": "Posizione di Yihonal Trading ad Addis Abeba, Bole"
+  },
+  "resource": {
+    "buyerKicker": "Per acquirenti internazionali di caffè",
+    "buyerTitle": "Richiedi informazioni sui lotti o inizia una conversazione di fornitura.",
+    "contactCta": "Contatta Yihonal Trading",
+    "exploreProcessing": "Esplora i nostri metodi di lavorazione"
+  },
+  "footer": {
+    "kicker": "Yihonal Trading Plc",
+    "title": "Caffè specialty etiope tracciabile, connesso con il mondo.",
+    "desc": "Approvvigionamento, lavorazione, controllo qualità ed esportazione di specialty coffee da Addis Abeba e Sidama, Etiopia.",
+    "coffee": "Caffè",
+    "company": "Azienda",
+    "contact": "Contatti",
+    "ethiopianCoffee": "Caffè etiope",
+    "sidamaCoffee": "Caffè Sidama",
+    "coffeeProcessing": "Lavorazione del caffè",
+    "qualityTraceability": "Qualità & Tracciabilità",
+    "exportServices": "Servizi di esportazione",
+    "about": "Chi siamo",
+    "sites": "I territori",
+    "gallery": "Galleria",
+    "address": "Addis Abeba, Bole, Etiopia",
+    "rights": "Tutti i diritti riservati.",
+    "tagline": "Fornitore ed esportatore di specialty coffee dall'Etiopia"
+  },
+  "geoBanner": {
+    "detectedNotice": "Abbiamo rilevato che visiti il sito da {country}. Lingua impostata su {lang}.",
+    "switchPrompt": "Passa all'inglese",
+    "stay": "Mantieni {lang}"
+  }
+}
+

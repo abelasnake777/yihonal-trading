@@ -1,0 +1,204 @@
+{
+  "common": {
+    "brandName": "Yihonal Koffie",
+    "companyName": "Yihonal Trading Plc",
+    "tagline": "Traceerbare Ethiopische specialty coffee, verbonden met de wereld.",
+    "subTagline": "Leverancier en exporteur van Ethiopische specialty coffee",
+    "contactUs": "Contact opnemen",
+    "exploreSites": "Ontdek onze locaties",
+    "viewProducts": "Bekijk ons aanbod",
+    "learnMore": "Meer informatie",
+    "backToHome": "Terug naar startpagina",
+    "skipToContent": "Ga direct naar hoofdinhoud",
+    "close": "Sluiten",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "origin": "Herkomst · Ethiopië",
+    "rightsReserved": "Alle rechten voorbehouden."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Over ons",
+    "products": "Onze koffie",
+    "awards": "Onderscheidingen",
+    "sites": "Herkomstgebieden",
+    "gallery": "Galerij",
+    "contact": "Contact",
+    "openMenu": "Navigatiemenu openen",
+    "closeMenu": "Navigatiemenu sluiten",
+    "selectLanguage": "Selecteer taal",
+    "autoDetect": "Locatie automatisch detecteren",
+    "detectedFrom": "Gedetecteerd uit"
+  },
+  "hero": {
+    "title": "Yihonal Koffie",
+    "tagline": "Met de hand geplukt in Ethiopië, met toewijding gebrand",
+    "exporterTitle": "Exporteur van Ethiopische specialty coffee",
+    "exporterDesc": "Levering van traceerbare specialty coffee uit de hooglanden van Sidama – met directe inkoop, verwerking, kwaliteitscontrole en exportondersteuning voor internationale afnemers.",
+    "scrollDown": "Scroll naar beneden"
+  },
+  "highlights": {
+    "origin": "Direct van de oorsprong",
+    "originDesc": "Geteeld in de befaamde hooggelegen terroirs van Ethiopië.",
+    "traceability": "Volledige traceerbaarheid",
+    "traceabilityDesc": "Nauwkeurige registratie van elke partij van oogst tot verscheping.",
+    "processing": "Diverse verwerkingsmethoden",
+    "processingDesc": "Gewassen, natural, honey, anaerobe en experimentele lots.",
+    "export": "Wereldwijde export",
+    "exportDesc": "Professionele internationale logistiek en persoonlijke service voor branders."
+  },
+  "products": {
+    "kicker": "Onze specialty selecties",
+    "title": "Karaktervolle Ethiopische koffielots",
+    "intro": "Met zorg bereid voor koffiebranders, importeurs en specialty coffee partners wereldwijd.",
+    "clickForDetails": "Klik voor details",
+    "notesLabel": "Smaakprofiel",
+    "dialogTitle": "Productoverzicht",
+    "washed": {
+      "name": "Gewassen (Washed)",
+      "notes": "Bloemig, frisse citrus, helder en zuiver",
+      "desc": "Heldere gewassen lots voor branders die op zoek zijn naar zuiverheid en een consistente kop.",
+      "details": "Geselecteerd op verfijnde zuren, florale aroma's en gebalanceerde structuur. Uitstekend voor filterzetmethoden."
+    },
+    "natural": {
+      "name": "Natural (Onbewerkt gedroogd)",
+      "notes": "Zacht, zoet, bessen en harmonieus",
+      "desc": "Zongedroogde bessen met een vol mondgevoel, rijke zoetheid en een authentiek Ethiopisch profiel.",
+      "details": "Zorgvuldig gedroogd op Afrikaanse droogbedden om de natuurlijke suikers te concentreren voor een weelderig aroma."
+    },
+    "honey": {
+      "name": "Honey process",
+      "notes": "Fruitig, rijk mondgevoel, fluweelzacht",
+      "desc": "Gedroogd met een deel van het vruchtvlees voor een balans tussen fruitige frisheid en zoetheid.",
+      "details": "Behoudt natuurlijke mucilage tijdens het drogen, wat resulteert in een zachte textuur en ronde body."
+    },
+    "anaerobic": {
+      "name": "Anaeroob gefermenteerd",
+      "notes": "Tropisch fruit, levendig, gelaagd en complex",
+      "desc": "Gefermenteerd in zuurstofarme afgesloten tanks voor diepe fruitexpressies en gelaagde zoetheid.",
+      "details": "De anaerobe gisting ontwikkelt een opmerkelijke intensiteit en intrigerende smaakcomplexiteit in het kopje."
+    },
+    "experimental": {
+      "name": "Experimenteel (Experimental)",
+      "notes": "Innovatief, gelimiteerd, onderscheidend",
+      "desc": "Zeer beperkte oplages met innovatieve verwerkingstechnieken voor nieuwsgierige inkopers.",
+      "details": "Gedetailleerde informatie en samples zijn exclusief beschikbaar voor geregistreerde afnemers!"
+    }
+  },
+  "awards": {
+    "kicker": "Erkenning & Prijzen",
+    "title": "Bekroonde kwaliteit direct uit het herkomstland",
+    "featuredTitle": "Taste of Harvest 2025",
+    "featuredResult": "3e Plaats · Honey Process Arabica",
+    "featuredDesc": "Yihonal Trading behaalde de derde plaats tijdens de Afrikaanse finale van Taste of Harvest 2025.",
+    "viewCertificate": "Bekijk certificaat",
+    "galleryTitle": "Officiële certificaten",
+    "dialogTitle": "Onderscheidingen bekijken"
+  },
+  "sites": {
+    "kicker": "Onze koffieherkomsten",
+    "title": "Maak kennis met de plekken achter de koffie.",
+    "subtitle": "Verken vier Ethiopische locaties aan de hand van hun hoogteprofiel en visuele archieven. Selecteer hieronder een herkomstgebied.",
+    "elevationRange": "hoogtebereik",
+    "exploreLink": "Ontdek de locaties",
+    "chooseOrigin": "Kies herkomst",
+    "fourSites": "Vier locaties, vier hoogtes.",
+    "fourSitesDesc": "Elk profiel brengt specifieke hoogtes, lokale bodemkwaliteiten en exclusieve fotoarchieven samen.",
+    "altitudeBadge": "Hoogte",
+    "metresAsl": "m boven zeeniveau",
+    "elevationProfile": "Hoogteprofiel",
+    "aboveSeaLevel": "meter boven zeeniveau.",
+    "highElevation": "Specialty coffee geteeld op grote hoogte in",
+    "region": "Regio",
+    "localArea": "Gebied",
+    "variety": "Variëteit",
+    "processingSystem": "Verwerkingsmethode",
+    "archiveNote": "Elke fotogalerij is samengesteld uit foto's van het desbetreffende herkomststation.",
+    "siteNumber": "Locatie",
+    "originArchive": "Herkomstarchief"
+  },
+  "gallery": {
+    "kicker": "Veldnotities · Ethiopië",
+    "title": "Verhalen vanaf de bron.",
+    "subtitle": "Echte en ongefilterde impressies van de bergbossen, droogbedden en de mensen die met liefde elke oogst verzorgen.",
+    "moments": "momenten",
+    "livingArchive": "Een levend archief",
+    "archiveKicker": "Fotoarchief",
+    "archiveTitle": "Koffie, gemeenschap en ambacht.",
+    "archiveSubtitle": "Elke foto vertelt een deel van het verhaal. Klik om afbeeldingen groot te bekijken.",
+    "moreMoments": "Nieuwe momenten worden doorlopend toegevoegd",
+    "dialogTitle": "Galerij fotoviewer"
+  },
+  "about": {
+    "heroTitle": "Yihonal Koffie",
+    "heroTagline": "Met de hand geplukt in Ethiopië, met toewijding gebrand",
+    "journeyKicker": "Onze reis",
+    "journeyTitle": "Geworteld in de oorsprong, toegewijd aan topkwaliteit.",
+    "step1Label": "Het land",
+    "step1Title": "Geworteld bij de bron",
+    "step1Desc": "Onze lokale expertise start in Ethiopië's befaamde koffiegemeenschappen, waar hoogte en vruchtbare bodems elke partij vormen.",
+    "step2Label": "Relaties",
+    "step2Title": "Traceerbare inkoop",
+    "step2Desc": "Wij werken nauw samen met lokale boeren en verwerkers om transparante en duurzame ketens op te bouwen.",
+    "step3Label": "Het ambacht",
+    "step3Title": "Zorgvuldige verwerking",
+    "step3Desc": "Zowel gewassen als natural koffies worden nauwgezet gesorteerd en gedroogd om het unieke karakter te behouden.",
+    "step4Label": "De belofte",
+    "step4Title": "Kwaliteit voor export",
+    "step4Desc": "Strikte kwaliteitscontroles garanderen dat elke zending in perfecte conditie aankomt op de wereldmarkt.",
+    "valuesKicker": "Leidende principes",
+    "valuesTitle": "Onze waarden",
+    "value1Title": "Eerlijk zakendoen",
+    "value1Desc": "Eerlijke, verantwoorde en transparante werkmethoden in elke fase.",
+    "value2Title": "Klantgerichtheid",
+    "value2Desc": "Vriendelijke, professionele service afgestemd op de specifieke wensen van branders.",
+    "value3Title": "Constante kwaliteit",
+    "value3Desc": "Toegewijd vakmanschap dat de verwachtingen van onze klanten keer op keer overtreft.",
+    "value4Title": "Gedeelde vooruitgang",
+    "value4Desc": "Ondersteuning voor Ethiopië, haar inwoners en lokale koffiegemeenschappen."
+  },
+  "contact": {
+    "kicker": "Contact met Yihonal Trading Plc",
+    "title": "Start het gesprek over Ethiopische specialty coffee.",
+    "subtitle": "Internationale importeurs, branders en koffieprofessionals kunnen direct contact opnemen voor productinformatie en samples.",
+    "companyContact": "Bedrijfsgegevens",
+    "locationLabel": "Locatie",
+    "locationValue": "Addis Abeba, Bole, Ethiopië",
+    "phoneLabel": "Telefoon / WhatsApp",
+    "emailLabel": "E-mail",
+    "instagramLabel": "Instagram",
+    "messageWhatsApp": "Stuur Yihonal een bericht via WhatsApp",
+    "mapTitle": "Locatie van Yihonal Trading in Addis Abeba, Bole"
+  },
+  "resource": {
+    "buyerKicker": "Voor internationale koffie-inkopers",
+    "buyerTitle": "Vraag productinformatie aan of start een inkoopgesprek.",
+    "contactCta": "Contact opnemen met Yihonal Trading",
+    "exploreProcessing": "Ontdek onze koffieverwerkingsmethoden"
+  },
+  "footer": {
+    "kicker": "Yihonal Trading Plc",
+    "title": "Traceerbare Ethiopische specialty coffee, verbonden met de wereld.",
+    "desc": "Inkoop, verwerking, kwaliteitscontrole en exportondersteuning van specialty coffee vanuit Addis Abeba en Sidama, Ethiopië.",
+    "coffee": "Koffiesoorten",
+    "company": "Organisatie",
+    "contact": "Contact",
+    "ethiopianCoffee": "Ethiopische koffie",
+    "sidamaCoffee": "Sidama koffie",
+    "coffeeProcessing": "Koffieverwerking",
+    "qualityTraceability": "Kwaliteit & Traceerbaarheid",
+    "exportServices": "Exportdiensten",
+    "about": "Over ons",
+    "sites": "Herkomstgebieden",
+    "gallery": "Galerij",
+    "address": "Addis Abeba, Bole, Ethiopië",
+    "rights": "Alle rechten voorbehouden.",
+    "tagline": "Leverancier en exporteur van Ethiopische specialty coffee"
+  },
+  "geoBanner": {
+    "detectedNotice": "We hebben gedetecteerd dat u bezoekt vanuit {country}. Taal ingesteld op {lang}.",
+    "switchPrompt": "Overschakelen naar Engels",
+    "stay": "{lang} behouden"
+  }
+}
+

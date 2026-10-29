@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import SiteFooter from "@/app/components/SiteFooter";
+import { I18nProvider } from "@/i18n/I18nContext";
 import {
   absoluteUrl,
   assetUrl,
@@ -163,9 +164,11 @@ export default function RootLayout({
             __html: JSON.stringify(structuredData).replace(/</g, "\\u003c"),
           }}
         />
-        <a className="skip-to-content" href="#main-content">Skip to content</a>
-        {children}
-        <SiteFooter />
+        <I18nProvider>
+          <a className="skip-to-content" href="#main-content">Skip to content</a>
+          {children}
+          <SiteFooter />
+        </I18nProvider>
       </body>
     </html>
   );
